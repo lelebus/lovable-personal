@@ -2,10 +2,19 @@ import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { useTheme } from "next-themes";
+import logo from "@/assets/logo.png";
+import logoWhite from "@/assets/logo_white.png";
 
 export const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
+  const { theme } = useTheme();
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -41,10 +50,15 @@ export const Navigation = () => {
           {/* Logo */}
           <button 
             onClick={() => scrollToSection('home')}
-            className="text-2xl font-serif font-bold cursor-pointer luxury-text-shadow transition-all duration-300 hover:scale-105"
+            className="flex items-center cursor-pointer transition-all duration-300 hover:scale-105"
           >
-            <span className="text-foreground">Gabriele</span>
-            <span className="luxury-gradient bg-clip-text text-transparent ml-1">De Candido</span>
+            {mounted && (
+              <img 
+                src={theme === 'dark' ? logoWhite : logo} 
+                alt="Gabriele De Candido Logo" 
+                className="h-12 w-auto"
+              />
+            )}
           </button>
 
           {/* Desktop Navigation */}
