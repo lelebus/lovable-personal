@@ -10,64 +10,65 @@ export const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Sophisticated gradient background */}
-      <div 
+      <div
         className="absolute inset-0"
         style={{ background: 'var(--gradient-hero-light)' }}
       />
-      <div 
+      <div
         className="absolute inset-0 dark:opacity-100 opacity-0 transition-opacity duration-500"
         style={{ background: 'var(--gradient-hero-dark)' }}
       />
-      
+
       {/* Subtle tech overlay */}
       <div className="absolute inset-0 tech-gradient opacity-15" />
-      
+
       {/* Sophisticated pattern overlay */}
-      <div 
+      <div
         className="absolute inset-0 opacity-3"
         style={{
           backgroundImage: `radial-gradient(circle at 25% 25%, hsl(var(--accent)) 1px, transparent 1px)`,
           backgroundSize: '80px 80px'
         }}
       />
-      
+
       {/* Sophisticated container */}
       <div className="container mx-auto section-padding-sophisticated relative z-10">
         <div className="grid lg:grid-cols-2 gap-24 items-center">
           {/* Sophisticated Content */}
           <div className="space-y-12 animate-fade-in">
             <div className="space-y-8">
-              <h1 className="text-6xl md:text-7xl lg:text-9xl font-serif font-bold leading-[0.85] sophisticated-text-shadow">
-                <span className="block text-foreground">Software</span>
-                <span className="block tech-gradient bg-clip-text text-transparent bg-300% animate-gradient-shift">
-                  Architect
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif font-bold leading-[0.85] sophisticated-text-shadow">
+                <span className="block tech-gradient bg-clip-text text-transparent bg-300% animate-gradient-shift whitespace-nowrap leading-tight">
+                  Architecting
+                </span>
+                <span className="block text-foreground">
+                  Digital Solutions
                 </span>
               </h1>
-              <div className="relative p-8 sophisticated-card rounded-3xl">
+              <div className="relative py-8 sophisticated-card rounded-3xl">
                 <p className="text-xl md:text-2xl lg:text-3xl text-muted-foreground leading-relaxed font-light">
-                  I design and build 
-                  <span className="font-semibold text-foreground"> scalable software systems</span>, 
-                  lead technical teams, and deliver 
-                  <span className="font-semibold text-accent"> enterprise-grade solutions</span>. 
-                  From startups to enterprise, I help companies scale their digital products.
+                  I'm <span className="font-semibold text-foreground">Gabriele</span> — a multilingual tech consultant & software architect.
+                </p>
+                <p className="mt-3 text-xl md:text-2xl lg:text-3xl text-muted-foreground leading-relaxed font-light">
+                  I help businesses <span className="font-semibold text-accent">design, build, and launch</span> scalable digital products.
                 </p>
                 <div className="absolute -inset-1 tech-gradient rounded-3xl blur-xl opacity-20 -z-10" />
               </div>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-8">
-              <Button 
-                size="lg" 
+              <Button
+                size="lg"
                 className="sophisticated-button text-white font-semibold px-10 py-5 text-lg rounded-full shadow-sophisticated-premium hover:shadow-tech-glow transition-all duration-500"
                 onClick={() => scrollToSection('services')}
               >
                 <span className="relative z-10">View Services</span>
               </Button>
-              <Button 
-                variant="outline" 
+              <Button
+                variant="outline"
                 size="lg"
                 onClick={() => scrollToSection('projects')}
-                className="glass-card border-border hover:border-accent text-foreground hover:text-accent font-semibold px-10 py-5 text-lg rounded-full backdrop-blur-premium transition-all duration-500 hover:scale-105 hover:shadow-sophisticated-elegant"
+                className="glass-card border-border hover:border-accent text-foreground hover:text-white font-semibold px-10 py-5 text-lg rounded-full backdrop-blur-premium transition-all duration-500 hover:scale-105 hover:shadow-sophisticated-elegant"
               >
                 View Projects
               </Button>
@@ -84,8 +85,8 @@ export const Hero = () => {
                 <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">Projects Delivered</div>
               </div>
               <div className="sophisticated-card p-8 rounded-3xl group hover:scale-105 transition-all duration-500 hover:shadow-sophisticated-premium">
-                <div className="text-4xl md:text-5xl font-bold text-foreground mb-3 group-hover:text-accent transition-colors duration-500 sophisticated-text-shadow">3</div>
-                <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">Companies Founded</div>
+                <div className="text-4xl md:text-5xl font-bold text-foreground mb-3 group-hover:text-accent transition-colors duration-500 sophisticated-text-shadow">15+</div>
+                <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">Dev & DevOps Technologies</div>
               </div>
             </div>
           </div>
@@ -95,21 +96,21 @@ export const Hero = () => {
             {/* Sophisticated background effects */}
             <div className="absolute inset-0 tech-gradient rounded-[3rem] blur-3xl scale-110 opacity-25" />
             <div className="absolute -inset-8 tech-gradient rounded-[4rem] blur-[100px] opacity-20 animate-pulse" />
-            
+
             <div className="relative sophisticated-card rounded-[3rem] overflow-hidden shadow-sophisticated-premium group">
-              <img 
-                src={heroImage} 
-                alt="Gabriele De Candido - Tech Enthusiast & Founder" 
+              <img
+                src={heroImage}
+                alt="Gabriele De Candido - Tech Enthusiast & Founder"
                 className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
               />
               {/* Sophisticated gradient overlays */}
               <div className="absolute inset-0 bg-gradient-to-t from-[#0f1a1a]/40 via-transparent to-transparent" />
               <div className="absolute inset-0 bg-gradient-to-br from-accent/10 via-transparent to-accent-tech/10" />
-              
+
               {/* Sophisticated shimmer effect */}
               <div className="absolute inset-0 shimmer-effect opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
             </div>
-            
+
             {/* Sophisticated floating card */}
             <div className="absolute -bottom-10 -left-10 sophisticated-card p-10 rounded-3xl shadow-sophisticated-premium backdrop-blur-premium animate-float border-2 border-accent/20">
               <div className="flex items-center gap-6">
@@ -119,12 +120,12 @@ export const Hero = () => {
                   <div className="absolute -inset-2 w-9 h-9 tech-gradient rounded-full blur-lg opacity-20" />
                 </div>
                 <div>
-                  <div className="font-bold text-white text-xl mb-2 sophisticated-text-shadow">Available for Consulting</div>
-                  <div className="text-white/60 font-medium">Let's build something amazing</div>
+                  <div className="font-bold text-white text-xl mb-2 sophisticated-text-shadow">On call for bold projects</div>
+                  <div className="text-white/70 font-medium">Let's build something amazing</div>
                 </div>
               </div>
             </div>
-            
+
             {/* Sophisticated decorative elements */}
             <div className="absolute -top-6 -right-6 w-32 h-32 tech-gradient rounded-full blur-3xl opacity-20 animate-float" style={{ animationDelay: '2s' }} />
             <div className="absolute -bottom-16 -right-16 w-40 h-40 tech-gradient rounded-full blur-[100px] opacity-15 animate-float" style={{ animationDelay: '4s' }} />
