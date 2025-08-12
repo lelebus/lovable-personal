@@ -55,7 +55,7 @@ export const Navigation = () => {
             {mounted && (
               <img 
                 src={theme === 'dark' ? logoWhite : logo} 
-                alt="Software Architect Logo" 
+                alt="Gabriele De Candido Logo" 
                 className="h-12 w-auto"
               />
             )}

@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-image.jpg";
+import heroImage from "@/assets/hero.jpg";
 
 export const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -48,7 +48,8 @@ export const Hero = () => {
                   I design and build 
                   <span className="font-semibold text-foreground"> scalable software systems</span>, 
                   lead technical teams, and deliver 
-                  <span className="font-semibold text-accent"> enterprise-grade solutions</span>.
+                  <span className="font-semibold text-accent"> enterprise-grade solutions</span>. 
+                  From startups to enterprise, I help companies scale their digital products.
                 </p>
                 <div className="absolute -inset-1 tech-gradient rounded-3xl blur-xl opacity-20 -z-10" />
               </div>
@@ -75,16 +76,16 @@ export const Hero = () => {
             {/* Sophisticated stats */}
             <div className="grid grid-cols-3 gap-6">
               <div className="sophisticated-card p-8 rounded-3xl group hover:scale-105 transition-all duration-500 hover:shadow-sophisticated-premium">
-                <div className="text-4xl md:text-5xl font-bold text-foreground mb-3 group-hover:text-accent transition-colors duration-500 sophisticated-text-shadow">15+</div>
+                <div className="text-4xl md:text-5xl font-bold text-foreground mb-3 group-hover:text-accent transition-colors duration-500 sophisticated-text-shadow">7+</div>
                 <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">Years Experience</div>
               </div>
               <div className="sophisticated-card p-8 rounded-3xl group hover:scale-105 transition-all duration-500 hover:shadow-sophisticated-premium">
-                <div className="text-4xl md:text-5xl font-bold text-foreground mb-3 group-hover:text-accent transition-colors duration-500 sophisticated-text-shadow">100+</div>
-                <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">Systems Designed</div>
+                <div className="text-4xl md:text-5xl font-bold text-foreground mb-3 group-hover:text-accent transition-colors duration-500 sophisticated-text-shadow">20+</div>
+                <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">Projects Delivered</div>
               </div>
               <div className="sophisticated-card p-8 rounded-3xl group hover:scale-105 transition-all duration-500 hover:shadow-sophisticated-premium">
-                <div className="text-4xl md:text-5xl font-bold text-foreground mb-3 group-hover:text-accent transition-colors duration-500 sophisticated-text-shadow">50+</div>
-                <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">Team Members Led</div>
+                <div className="text-4xl md:text-5xl font-bold text-foreground mb-3 group-hover:text-accent transition-colors duration-500 sophisticated-text-shadow">3</div>
+                <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">Companies Founded</div>
               </div>
             </div>
           </div>
@@ -98,11 +99,11 @@ export const Hero = () => {
             <div className="relative sophisticated-card rounded-[3rem] overflow-hidden shadow-sophisticated-premium group">
               <img 
                 src={heroImage} 
-                alt="Software Architect - Professional Consultant" 
+                alt="Gabriele De Candido - Tech Enthusiast & Founder" 
                 className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
               />
               {/* Sophisticated gradient overlays */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0f1a1a]/40 via-transparent to-transparent" />
               <div className="absolute inset-0 bg-gradient-to-br from-accent/10 via-transparent to-accent-tech/10" />
               
               {/* Sophisticated shimmer effect */}
@@ -118,8 +119,8 @@ export const Hero = () => {
                   <div className="absolute -inset-2 w-9 h-9 tech-gradient rounded-full blur-lg opacity-20" />
                 </div>
                 <div>
-                  <div className="font-bold text-foreground text-xl mb-2 sophisticated-text-shadow">Available for Consulting</div>
-                  <div className="text-muted-foreground font-medium">Let's architect your solution</div>
+                  <div className="font-bold text-white text-xl mb-2 sophisticated-text-shadow">Available for Consulting</div>
+                  <div className="text-white/60 font-medium">Let's build something amazing</div>
                 </div>
               </div>
             </div>

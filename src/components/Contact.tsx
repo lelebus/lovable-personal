@@ -11,25 +11,25 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    value: "architect@example.com",
-    href: "mailto:architect@example.com"
+    value: "leledecandi@gmail.com",
+    href: "mailto:leledecandi@gmail.com"
   },
   {
     icon: Linkedin,
     title: "LinkedIn",
-    value: "linkedin.com/in/software-architect",
-    href: "https://linkedin.com/in/software-architect"
+    value: "linkedin.com/in/de-candido",
+    href: "https://linkedin.com/in/de-candido"
   },
   {
     icon: Phone,
     title: "Phone",
-    value: "+1 (555) 123-4567",
-    href: "tel:+15551234567"
+    value: "+39 3357812244",
+    href: "tel:+393357812244"
   },
   {
     icon: MapPin,
     title: "Location",
-    value: "United States • Remote",
+    value: "Bolzano, Trentino-Alto Adige, Italy",
     href: null
   }
 ];
@@ -50,7 +50,7 @@ export const Contact = () => {
     // Simulate form submission
     toast({
       title: "Message Sent!",
-      description: "Thank you for reaching out. I'll get back to you within 24 hours.",
+      description: "Thank you for reaching out, Gabriele will get back to you within 24 hours.",
     });
     
     setFormData({ name: "", email: "", company: "", project: "", message: "" });
@@ -68,11 +68,11 @@ export const Contact = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6 text-foreground">
-            Let's Discuss Your Project
+            Let's Build Something Amazing Together
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Ready to build robust, scalable software solutions? I'd love to hear about your 
-            technical challenges and explore how we can architect the right solution together.
+            From startup ventures to enterprise solutions, I help companies architect, build, and scale 
+            their digital products. Let's discuss your technical challenges and explore innovative solutions.
           </p>
         </div>
 
@@ -82,7 +82,7 @@ export const Contact = () => {
             <CardHeader>
               <CardTitle className="text-2xl font-serif text-foreground">Project Inquiry</CardTitle>
               <CardDescription>
-                Tell me about your project requirements and I'll respond within 24 hours.
+                Tell me about your project requirements, technical challenges, or business goals. I'll respond within 24 hours.
               </CardDescription>
             </CardHeader>
             <CardContent>
@@ -168,7 +168,7 @@ export const Contact = () => {
               <CardHeader>
                 <CardTitle className="text-2xl font-serif text-foreground">Get In Touch</CardTitle>
                 <CardDescription>
-                  Choose your preferred way to connect. I'm always excited to discuss new technical challenges.
+                  Choose your preferred way to connect. I'm always excited to discuss new technical challenges and business opportunities.
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -201,7 +201,7 @@ export const Contact = () => {
               <CardContent className="p-8 text-center">
                 <h3 className="text-xl font-serif font-bold mb-4 text-foreground">Ready to Start?</h3>
                 <p className="text-muted-foreground mb-6">
-                  Let's schedule a technical consultation to discuss your architecture needs and explore solutions.
+                  Let's schedule a consultation to discuss your technical challenges, business goals, and explore innovative solutions together.
                 </p>
                 <Button 
                   variant="outline" 

@@ -6,37 +6,37 @@ const services = [
     icon: Database,
     title: "System Architecture",
     description: "Design scalable, maintainable software architectures that support business growth and technical requirements.",
-    features: ["Microservices Design", "Database Architecture", "Scalability Planning"]
+    features: ["System Design", "Database Architecture", "API Design", "Scalability Planning"]
   },
   {
     icon: Code,
     title: "Software Development",
-    description: "Full-stack development with modern technologies, clean code practices, and robust testing strategies.",
-    features: ["Full-stack Solutions", "Clean Code", "Testing Strategy"]
+    description: "Full-stack development with modern technologies including Vue.js, Nuxt.js, Golang, and Node.js.",
+    features: ["Full-stack Solutions", "Modern Frameworks", "Clean Code", "Testing Strategy"]
   },
   {
     icon: GitBranch,
     title: "DevOps & CI/CD",
-    description: "Streamline development workflows with automated testing, deployment pipelines, and infrastructure as code.",
-    features: ["CI/CD Pipelines", "Infrastructure as Code", "Monitoring"]
+    description: "Streamline development workflows with automated testing, deployment pipelines, and AWS infrastructure.",
+    features: ["CI/CD Pipelines", "AWS Services", "Docker", "Monitoring"]
   },
   {
     icon: Users,
-    title: "Technical Leadership",
-    description: "Lead development teams, establish coding standards, and mentor engineers for optimal productivity.",
-    features: ["Team Leadership", "Code Standards", "Technical Mentoring"]
+    title: "Startup Leadership",
+    description: "Lead development teams, establish development processes, and mentor engineers for optimal productivity.",
+    features: ["Team Leadership", "Process Design", "Technical Mentoring", "Project Management"]
   },
   {
-    icon: Shield,
-    title: "Security & Compliance",
-    description: "Implement security best practices, compliance frameworks, and secure coding standards.",
-    features: ["Security Audits", "Compliance", "Secure Development"]
+    icon: Lightbulb,
+    title: "Business Consulting",
+    description: "Help startups and companies leverage technology to scale their operations and improve efficiency.",
+    features: ["Digital Transformation", "Process Optimization", "Technology Strategy", "Growth Planning"]
   },
   {
-    icon: Cpu,
+    icon: Zap,
     title: "Performance Optimization",
     description: "Optimize system performance, database queries, and application responsiveness for better user experience.",
-    features: ["Performance Tuning", "Database Optimization", "Load Testing"]
+    features: ["Performance Tuning", "Database Optimization", "Load Testing", "User Experience"]
   }
 ];
 
@@ -49,8 +49,8 @@ export const Services = () => {
             Professional Services
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            As a software architect, I provide comprehensive technical consulting and development services 
-            to help organizations build robust, scalable software solutions.
+            As a tech consultant and entrepreneur, I provide comprehensive technical consulting and development services 
+            to help startups and companies build robust, scalable digital solutions.
           </p>
         </div>
 

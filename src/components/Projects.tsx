@@ -5,50 +5,35 @@ import { ExternalLink, Github, Database, Code, Users } from "lucide-react";
 
 const projects = [
   {
-    title: "Enterprise E-commerce Platform",
-    description: "Scalable microservices architecture for a Fortune 500 retail company, handling 1M+ daily transactions with 99.9% uptime.",
-    role: "Lead Software Architect",
-    tech: ["Java", "Spring Boot", "Kubernetes", "PostgreSQL", "Redis", "AWS"],
+    title: "Vinoteqa - Wine Management SaaS",
+    description: "Revolutionary SaaS platform for wine cellar and wine list management, helping restaurants and wine bars automate sales, purchases, and reporting.",
+    role: "Founder & Lead Developer",
+    tech: ["Vue.js", "Nuxt.js", "Node.js", "PostgreSQL", "AWS", "Docker"],
     highlights: [
-      "Designed microservices architecture for 10M+ users",
-      "Implemented event-driven architecture with Kafka",
-      "Achieved 99.9% system availability",
-      "Reduced deployment time by 80%"
+      "Built complete SaaS platform from concept to production",
+      "Automated wine sales accounting for ~25% of restaurant revenue",
+      "Streamlined back-end operations for restaurateurs",
+      "User-friendly platform for extensive wine collections"
     ],
-    status: "Production System",
-    year: "2023-2024",
+    status: "Live Platform",
+    year: "2023-Present",
     icon: Database
   },
   {
-    title: "Financial Trading Platform",
-    description: "High-frequency trading system with real-time market data processing, risk management, and compliance monitoring.",
-    role: "Senior Software Architect",
-    tech: ["C++", "Python", "Apache Kafka", "TimescaleDB", "Docker", "GCP"],
+    title: "Collezionissimo - Collection Platform",
+    description: "Omnichannel commerce platform for private collections including antique paper, coins, military memorabilia, watches, and musical materials.",
+    role: "Co-Founder & CTO",
+    tech: ["Vue.js", "Node.js", "PostgreSQL", "AWS", "E-commerce", "API Design"],
     highlights: [
-      "Built low-latency trading engine (<1ms)",
-      "Implemented real-time risk management",
-      "Designed scalable data pipeline",
-      "Ensured regulatory compliance"
+      "Built platform supporting thousands of objects across multiple categories",
+      "Implemented omnichannel commerce approach",
+      "Designed scalable database architecture for diverse collections",
+      "Created user-friendly interface for public access"
     ],
     status: "Live Platform",
-    year: "2022-2023",
+    year: "2020-Present",
     icon: Code
   },
-  {
-    title: "Healthcare Data Platform",
-    description: "HIPAA-compliant healthcare data management system with advanced analytics, patient privacy controls, and AI-powered insights.",
-    role: "Software Architect",
-    tech: ["Python", "FastAPI", "PostgreSQL", "Elasticsearch", "TensorFlow", "Azure"],
-    highlights: [
-      "Ensured HIPAA compliance and security",
-      "Built real-time analytics dashboard",
-      "Implemented AI-powered diagnostics",
-      "Managed team of 8 developers"
-    ],
-    status: "Production System",
-    year: "2021-2022",
-    icon: Users
-  }
 ];
 
 export const Projects = () => {
@@ -57,11 +42,11 @@ export const Projects = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6 text-foreground">
-            Technical Projects & Systems
+            Featured Projects & Ventures
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            A selection of enterprise systems and platforms I've architected and delivered, 
-            demonstrating expertise in scalable software design and technical leadership.
+            A selection of innovative platforms and startups I've founded and built, 
+            demonstrating expertise in entrepreneurship, technical leadership, and digital product development.
           </p>
         </div>
 
@@ -136,7 +121,7 @@ export const Projects = () => {
                   <div className="space-y-2">
                     <Button variant="outline" size="sm" className="w-full" disabled>
                       <ExternalLink className="w-4 h-4 mr-2" />
-                      Enterprise System
+                      Startup Platform
                     </Button>
                   </div>
                 </div>

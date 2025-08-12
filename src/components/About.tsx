@@ -2,43 +2,44 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 
 const skills = [
-  { category: "Architecture", items: ["Microservices", "Event-Driven", "Domain-Driven Design", "API Design", "System Integration"] },
-  { category: "Backend", items: ["Java", "Python", "C++", "PostgreSQL", "Redis", "Kafka"] },
-  { category: "Cloud & DevOps", items: ["AWS", "Azure", "Kubernetes", "Docker", "CI/CD", "Terraform"] },
-  { category: "Leadership", items: ["Technical Leadership", "Team Building", "Agile/Scrum", "Code Reviews", "Architecture Reviews"] }
+  { category: "Architecture", items: ["System Design", "API Design", "Database Design", "Microservices", "Event-Driven"] },
+  { category: "Development", items: ["Vue.js", "Nuxt.js", "Golang", "Java", "Python", "Node.js"] },
+  { category: "Cloud & DevOps", items: ["AWS", "Docker", "CI/CD", "Git", "Linux", "PostgreSQL"] },
+  { category: "Leadership", items: ["Startup Leadership", "Team Building", "Project Management", "Technical Leadership"] }
 ];
 
 const languages = [
-  { language: "Italian", level: "Native" },
-  { language: "English", level: "Fluent" },
-  { language: "Spanish", level: "Conversational" }
+  { language: "German", level: "Native/Bilingual" },
+  { language: "Italian", level: "Native/Bilingual" },
+  { language: "English", level: "Full Professional" },
+  { language: "Spanish", level: "Professional Working" }
 ];
 
 const milestones = [
   {
-    year: "2024",
-    title: "Lead Software Architect",
-    description: "Leading architecture design for enterprise e-commerce platform serving 10M+ users"
+    year: "2023",
+    title: "Founder @ Vinoteqa",
+    description: "Building a SaaS platform revolutionizing wine cellar management for restaurants and wine bars"
   },
   {
-    year: "2023",
-    title: "Senior Software Architect",
-    description: "Designed high-frequency trading system with sub-millisecond latency requirements"
+    year: "2020",
+    title: "Co-Founder @ Collezionissimo",
+    description: "Platform for private collections with omnichannel commerce approach"
   },
   {
     year: "2022",
-    title: "Software Architect",
-    description: "Built HIPAA-compliant healthcare data platform with AI-powered analytics"
+    title: "Co-Founder @ Emerald Experience Studio",
+    description: "Combining art with cutting-edge technologies for distinctive customer experiences"
   },
   {
     year: "2021",
-    title: "Senior Software Engineer",
-    description: "Developed scalable backend systems and led development teams"
+    title: "CTO @ CodeWorks",
+    description: "Led development teams and created solid development guidelines and release processes"
   },
   {
     year: "2018",
-    title: "Software Engineer",
-    description: "Started career focusing on full-stack development and system design"
+    title: "Software Engineer @ FlashBeing",
+    description: "Contributed to productivity platform development and gained AWS expertise"
   }
 ];
 
@@ -51,8 +52,8 @@ export const About = () => {
             About Me
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            A senior software architect with over 15 years of experience designing and building 
-            enterprise-scale systems, leading technical teams, and delivering robust software solutions.
+            A tech enthusiast and entrepreneur with 6+ years of experience building startups, leading teams, 
+            and delivering innovative digital solutions. I love to code, solve problems, and build cool things.
           </p>
         </div>
 
@@ -64,20 +65,19 @@ export const About = () => {
                 <h3 className="text-2xl font-serif font-bold mb-6 text-foreground">Professional Journey</h3>
                 <div className="space-y-6 text-muted-foreground leading-relaxed">
                   <p>
-                    My passion for software architecture began with a deep curiosity about how complex 
-                    systems work and how to make them more efficient, scalable, and maintainable. 
-                    Over the past 15+ years, I've evolved from a software engineer to a senior architect.
+                    My journey in tech started at age 14 when I began programming and developing websites. 
+                    By 18, I was already running my own business as a developer, and since then, I've been 
+                    passionate about building innovative solutions that solve real business problems.
                   </p>
                   <p>
-                    I specialize in designing enterprise-grade systems that can handle millions of users, 
-                    process vast amounts of data, and maintain high availability. My approach combines 
-                    technical expertise with business understanding to create solutions that drive real value.
+                    I specialize in creating scalable software systems, leading development teams, and 
+                    building successful startups. My approach combines technical expertise with entrepreneurial 
+                    thinking to deliver solutions that drive business growth and user satisfaction.
                   </p>
                   <p>
-                    I believe in clean architecture principles, continuous learning, and mentoring the 
-                    next generation of software architects. When I'm not designing systems, you'll find 
-                    me exploring new technologies, contributing to open source, or sharing knowledge 
-                    with the developer community.
+                    I believe in the power of technology to transform businesses and create meaningful 
+                    experiences. When I'm not coding or building companies, you'll find me exploring new 
+                    technologies, mentoring teams, or working on the next big idea.
                   </p>
                 </div>
               </CardContent>
