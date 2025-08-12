@@ -2,10 +2,10 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 
 const skills = [
-  { category: "Frontend", items: ["React", "Vue.js", "TypeScript", "Tailwind CSS", "Next.js"] },
-  { category: "Backend", items: ["Node.js", "Laravel", "PostgreSQL", "MongoDB", "Redis"] },
-  { category: "Cloud & DevOps", items: ["AWS", "Docker", "CI/CD", "Kubernetes", "Terraform"] },
-  { category: "Leadership", items: ["Team Building", "Product Strategy", "Agile/Scrum", "Technical Mentoring"] }
+  { category: "Architecture", items: ["Microservices", "Event-Driven", "Domain-Driven Design", "API Design", "System Integration"] },
+  { category: "Backend", items: ["Java", "Python", "C++", "PostgreSQL", "Redis", "Kafka"] },
+  { category: "Cloud & DevOps", items: ["AWS", "Azure", "Kubernetes", "Docker", "CI/CD", "Terraform"] },
+  { category: "Leadership", items: ["Technical Leadership", "Team Building", "Agile/Scrum", "Code Reviews", "Architecture Reviews"] }
 ];
 
 const languages = [
@@ -17,28 +17,28 @@ const languages = [
 const milestones = [
   {
     year: "2024",
-    title: "Vinoteqa Growth",
-    description: "Scaled wine management SaaS to serve thousands of collectors worldwide"
+    title: "Lead Software Architect",
+    description: "Leading architecture design for enterprise e-commerce platform serving 10M+ users"
   },
   {
     year: "2023",
-    title: "Product Leadership",
-    description: "Led technical teams in developing innovative B2B solutions"
+    title: "Senior Software Architect",
+    description: "Designed high-frequency trading system with sub-millisecond latency requirements"
+  },
+  {
+    year: "2022",
+    title: "Software Architect",
+    description: "Built HIPAA-compliant healthcare data platform with AI-powered analytics"
   },
   {
     year: "2021",
-    title: "Collezionissimo Launch",
-    description: "Co-founded marketplace platform connecting collectors globally"
+    title: "Senior Software Engineer",
+    description: "Developed scalable backend systems and led development teams"
   },
   {
     year: "2018",
-    title: "Emerald Experience",
-    description: "Founded digital agency creating immersive web experiences"
-  },
-  {
-    year: "2015",
-    title: "Tech Journey Begins",
-    description: "Started career as software engineer, focusing on full-stack development"
+    title: "Software Engineer",
+    description: "Started career focusing on full-stack development and system design"
   }
 ];
 
@@ -47,45 +47,46 @@ export const About = () => {
     <section id="about" className="py-24 bg-gradient-to-b from-muted to-background">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">
-            About Gabriele
+          <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6 text-foreground">
+            About Me
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            A passionate technologist with a decade of experience building products, 
-            leading teams, and turning innovative ideas into successful businesses.
+            A senior software architect with over 15 years of experience designing and building 
+            enterprise-scale systems, leading technical teams, and delivering robust software solutions.
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-16">
           {/* Personal Story */}
           <div className="space-y-8">
-            <Card className="bg-card border-border shadow-soft">
+            <Card className="sophisticated-card">
               <CardContent className="p-8">
-                <h3 className="text-2xl font-serif font-bold mb-6">My Journey</h3>
+                <h3 className="text-2xl font-serif font-bold mb-6 text-foreground">Professional Journey</h3>
                 <div className="space-y-6 text-muted-foreground leading-relaxed">
                   <p>
-                    My passion for technology started early, but it was the intersection of business 
-                    and engineering that truly captured my imagination. Over the past decade, I've 
-                    worn many hats: software engineer, product manager, entrepreneur, and technical leader.
+                    My passion for software architecture began with a deep curiosity about how complex 
+                    systems work and how to make them more efficient, scalable, and maintainable. 
+                    Over the past 15+ years, I've evolved from a software engineer to a senior architect.
                   </p>
                   <p>
-                    I believe the best technology solutions come from deeply understanding business needs 
-                    and user problems. This philosophy has guided me through founding two companies, 
-                    scaling products to thousands of users, and helping numerous startups navigate 
-                    their technical challenges.
+                    I specialize in designing enterprise-grade systems that can handle millions of users, 
+                    process vast amounts of data, and maintain high availability. My approach combines 
+                    technical expertise with business understanding to create solutions that drive real value.
                   </p>
                   <p>
-                    When I'm not coding or strategizing, you'll find me exploring new technologies, 
-                    mentoring fellow entrepreneurs, or enjoying a good wine (hence the wine management platform!).
+                    I believe in clean architecture principles, continuous learning, and mentoring the 
+                    next generation of software architects. When I'm not designing systems, you'll find 
+                    me exploring new technologies, contributing to open source, or sharing knowledge 
+                    with the developer community.
                   </p>
                 </div>
               </CardContent>
             </Card>
 
             {/* Languages */}
-            <Card className="bg-card border-border shadow-soft">
+            <Card className="sophisticated-card">
               <CardContent className="p-8">
-                <h3 className="text-xl font-serif font-bold mb-4">Languages</h3>
+                <h3 className="text-xl font-serif font-bold mb-4 text-foreground">Languages</h3>
                 <div className="space-y-3">
                   {languages.map((lang, index) => (
                     <div key={index} className="flex justify-between items-center">
@@ -101,9 +102,9 @@ export const About = () => {
           {/* Skills & Timeline */}
           <div className="space-y-8">
             {/* Skills */}
-            <Card className="bg-card border-border shadow-soft">
+            <Card className="sophisticated-card">
               <CardContent className="p-8">
-                <h3 className="text-2xl font-serif font-bold mb-6">Expertise</h3>
+                <h3 className="text-2xl font-serif font-bold mb-6 text-foreground">Technical Expertise</h3>
                 <div className="space-y-6">
                   {skills.map((skill, index) => (
                     <div key={index}>
@@ -122,9 +123,9 @@ export const About = () => {
             </Card>
 
             {/* Career Timeline */}
-            <Card className="bg-card border-border shadow-soft">
+            <Card className="sophisticated-card">
               <CardContent className="p-8">
-                <h3 className="text-2xl font-serif font-bold mb-6">Career Highlights</h3>
+                <h3 className="text-2xl font-serif font-bold mb-6 text-foreground">Career Progression</h3>
                 <div className="space-y-6">
                   {milestones.map((milestone, index) => (
                     <div key={index} className="flex gap-4">
@@ -139,7 +140,7 @@ export const About = () => {
                           <Badge variant="secondary" className="text-xs">
                             {milestone.year}
                           </Badge>
-                          <h4 className="font-medium">{milestone.title}</h4>
+                          <h4 className="font-medium text-foreground">{milestone.title}</h4>
                         </div>
                         <p className="text-sm text-muted-foreground">
                           {milestone.description}

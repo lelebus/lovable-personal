@@ -3,7 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
-import { Mail, Phone, Linkedin, MapPin } from "lucide-react";
+import { Mail, Phone, Linkedin, MapPin, Calendar, MessageSquare } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 
@@ -11,25 +11,25 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    value: "gabriele@decandido.com",
-    href: "mailto:gabriele@decandido.com"
+    value: "architect@example.com",
+    href: "mailto:architect@example.com"
   },
   {
     icon: Linkedin,
     title: "LinkedIn",
-    value: "linkedin.com/in/gabrieledecandido",
-    href: "https://linkedin.com/in/gabrieledecandido"
+    value: "linkedin.com/in/software-architect",
+    href: "https://linkedin.com/in/software-architect"
   },
   {
     icon: Phone,
     title: "Phone",
-    value: "+39 XXX XXX XXXX",
-    href: "tel:+39xxxxxxxxxx"
+    value: "+1 (555) 123-4567",
+    href: "tel:+15551234567"
   },
   {
     icon: MapPin,
     title: "Location",
-    value: "Italy • Remote",
+    value: "United States • Remote",
     href: null
   }
 ];
@@ -39,6 +39,7 @@ export const Contact = () => {
     name: "",
     email: "",
     company: "",
+    project: "",
     message: ""
   });
   const { toast } = useToast();
@@ -52,7 +53,7 @@ export const Contact = () => {
       description: "Thank you for reaching out. I'll get back to you within 24 hours.",
     });
     
-    setFormData({ name: "", email: "", company: "", message: "" });
+    setFormData({ name: "", email: "", company: "", project: "", message: "" });
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -66,22 +67,22 @@ export const Contact = () => {
     <section id="contact" className="py-24 bg-gradient-to-b from-background to-secondary">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">
-            Let's Work Together
+          <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6 text-foreground">
+            Let's Discuss Your Project
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Ready to transform your business with innovative technology solutions? 
-            I'd love to hear about your project and explore how we can collaborate.
+            Ready to build robust, scalable software solutions? I'd love to hear about your 
+            technical challenges and explore how we can architect the right solution together.
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-16">
           {/* Contact Form */}
-          <Card className="bg-card border-border shadow-elegant">
+          <Card className="sophisticated-card">
             <CardHeader>
-              <CardTitle className="text-2xl font-serif">Send a Message</CardTitle>
+              <CardTitle className="text-2xl font-serif text-foreground">Project Inquiry</CardTitle>
               <CardDescription>
-                Fill out the form below and I'll respond within 24 hours.
+                Tell me about your project requirements and I'll respond within 24 hours.
               </CardDescription>
             </CardHeader>
             <CardContent>
@@ -112,19 +113,32 @@ export const Contact = () => {
                   </div>
                 </div>
                 
-                <div className="space-y-2">
-                  <Label htmlFor="company">Company (Optional)</Label>
-                  <Input
-                    id="company"
-                    name="company"
-                    value={formData.company}
-                    onChange={handleChange}
-                    className="border-border focus:ring-accent"
-                  />
+                <div className="grid md:grid-cols-2 gap-4">
+                  <div className="space-y-2">
+                    <Label htmlFor="company">Company</Label>
+                    <Input
+                      id="company"
+                      name="company"
+                      value={formData.company}
+                      onChange={handleChange}
+                      className="border-border focus:ring-accent"
+                    />
+                  </div>
+                  <div className="space-y-2">
+                    <Label htmlFor="project">Project Type</Label>
+                    <Input
+                      id="project"
+                      name="project"
+                      value={formData.project}
+                      onChange={handleChange}
+                      placeholder="e.g., System Design, Architecture Review"
+                      className="border-border focus:ring-accent"
+                    />
+                  </div>
                 </div>
                 
                 <div className="space-y-2">
-                  <Label htmlFor="message">Message</Label>
+                  <Label htmlFor="message">Project Details</Label>
                   <Textarea
                     id="message"
                     name="message"
@@ -133,16 +147,16 @@ export const Contact = () => {
                     rows={6}
                     required
                     className="border-border focus:ring-accent resize-none"
-                    placeholder="Tell me about your project, challenges, or how I can help..."
+                    placeholder="Describe your project requirements, technical challenges, timeline, and how I can help..."
                   />
                 </div>
                 
                 <Button 
                   type="submit" 
                   size="lg" 
-                  className="w-full bg-accent hover:bg-accent/90 text-accent-foreground shadow-accent"
+                  className="w-full sophisticated-button text-white shadow-sophisticated-premium"
                 >
-                  Send Message
+                  Send Project Inquiry
                 </Button>
               </form>
             </CardContent>
@@ -150,11 +164,11 @@ export const Contact = () => {
 
           {/* Contact Information */}
           <div className="space-y-8">
-            <Card className="bg-card border-border shadow-soft">
+            <Card className="sophisticated-card">
               <CardHeader>
-                <CardTitle className="text-2xl font-serif">Get In Touch</CardTitle>
+                <CardTitle className="text-2xl font-serif text-foreground">Get In Touch</CardTitle>
                 <CardDescription>
-                  Choose your preferred way to connect. I'm always excited to discuss new opportunities.
+                  Choose your preferred way to connect. I'm always excited to discuss new technical challenges.
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -164,7 +178,7 @@ export const Contact = () => {
                       <item.icon className="w-6 h-6 text-accent" />
                     </div>
                     <div className="flex-1">
-                      <h3 className="font-medium mb-1">{item.title}</h3>
+                      <h3 className="font-medium mb-1 text-foreground">{item.title}</h3>
                       {item.href ? (
                         <a 
                           href={item.href}
@@ -183,18 +197,19 @@ export const Contact = () => {
               </CardContent>
             </Card>
 
-            <Card className="bg-gradient-to-br from-accent/10 to-accent/5 border-accent/20 shadow-soft">
+            <Card className="bg-gradient-to-br from-accent/10 to-accent/5 border-accent/20 shadow-sophisticated-soft">
               <CardContent className="p-8 text-center">
-                <h3 className="text-xl font-serif font-bold mb-4">Ready to Start?</h3>
+                <h3 className="text-xl font-serif font-bold mb-4 text-foreground">Ready to Start?</h3>
                 <p className="text-muted-foreground mb-6">
-                  Let's schedule a free consultation to discuss your project and explore possibilities.
+                  Let's schedule a technical consultation to discuss your architecture needs and explore solutions.
                 </p>
                 <Button 
                   variant="outline" 
                   size="lg"
                   className="border-accent text-accent hover:bg-accent hover:text-accent-foreground"
                 >
-                  Schedule a Call
+                  <Calendar className="w-4 h-4 mr-2" />
+                  Schedule Consultation
                 </Button>
               </CardContent>
             </Card>

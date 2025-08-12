@@ -2,134 +2,134 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Premium $10K Website Design System for Gabriele De Candido
-Sophisticated, luxury design with premium materials and premium effects
+/* Professional Software Architect Design System
+Corporate, tech-focused design with professional colors and clean aesthetics
 All colors MUST be HSL.
 */
 
 @layer base {
   :root {
-    /* Luxury Brand Colors - Light Mode */
-    --background: 42 33% 97%; /* Champagne white */
-    --foreground: 230 15% 9%; /* Rich charcoal */
+    /* Professional Brand Colors - Light Mode */
+    --background: 210 40% 98%; /* Cool light blue-gray */
+    --foreground: 220 25% 15%; /* Deep professional blue-gray */
 
-    --card: 0 0% 100%; /* Pure white with luxury feel */
-    --card-foreground: 230 15% 9%;
+    --card: 0 0% 100%; /* Pure white */
+    --card-foreground: 220 25% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 230 15% 9%;
+    --popover-foreground: 220 25% 15%;
 
-    /* Premium Primary - Deep luxury charcoal */
-    --primary: 230 15% 9%;
-    --primary-foreground: 42 33% 97%;
+    /* Professional Primary - Corporate blue */
+    --primary: 220 70% 50%;
+    --primary-foreground: 0 0% 100%;
 
-    /* Luxury Secondary - Warm cream */
-    --secondary: 42 25% 94%;
-    --secondary-foreground: 230 15% 9%;
+    /* Professional Secondary - Cool gray */
+    --secondary: 210 20% 96%;
+    --secondary-foreground: 220 25% 15%;
 
-    /* Sophisticated Muted */
-    --muted: 42 20% 96%;
-    --muted-foreground: 230 10% 40%;
+    /* Professional Muted */
+    --muted: 210 20% 96%;
+    --muted-foreground: 220 15% 40%;
 
-    /* Premium Accent - Rose gold gradient base */
-    --accent: 340 75% 55%;
+    /* Professional Accent - Tech blue */
+    --accent: 210 80% 55%;
     --accent-foreground: 0 0% 100%;
-    --accent-luxury: 25 85% 65%; /* Gold accent */
+    --accent-tech: 220 70% 50%; /* Professional blue accent */
 
-    /* Luxury Supporting Colors */
-    --destructive: 0 75% 60%;
+    /* Professional Supporting Colors */
+    --destructive: 0 70% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 42 20% 90%;
-    --input: 42 15% 92%;
-    --ring: 340 75% 55%;
+    --border: 210 20% 90%;
+    --input: 210 15% 92%;
+    --ring: 220 70% 50%;
 
-    --radius: 1rem;
+    --radius: 0.75rem;
 
-    /* Premium Gradients */
-    --gradient-hero-light: linear-gradient(135deg, hsl(42 33% 97%) 0%, hsl(42 25% 94%) 25%, hsl(340 75% 98%) 50%, hsl(25 85% 96%) 100%);
-    --gradient-hero-dark: linear-gradient(135deg, hsl(230 20% 6%) 0%, hsl(230 15% 8%) 25%, hsl(240 15% 10%) 50%, hsl(230 12% 12%) 75%, hsl(220 10% 15%) 100%);
-    --gradient-accent-luxury: linear-gradient(135deg, hsl(340 75% 55%) 0%, hsl(25 85% 65%) 25%, hsl(320 70% 60%) 50%, hsl(35 80% 70%) 75%, hsl(300 65% 65%) 100%);
-    --gradient-card-light: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(42 33% 99%) 50%, hsl(340 75% 99%) 100%);
-    --gradient-card-dark: linear-gradient(145deg, hsl(230 15% 12%) 0%, hsl(240 12% 15%) 50%, hsl(230 10% 18%) 100%);
-    --gradient-glass-light: linear-gradient(135deg, hsla(0 0% 100% / 0.8) 0%, hsla(42 33% 97% / 0.6) 100%);
-    --gradient-glass-dark: linear-gradient(135deg, hsla(230 15% 12% / 0.8) 0%, hsla(240 12% 15% / 0.6) 100%);
+    /* Professional Gradients */
+    --gradient-hero-light: linear-gradient(135deg, hsl(210 40% 98%) 0%, hsl(210 30% 95%) 25%, hsl(220 25% 92%) 50%, hsl(210 20% 90%) 100%);
+    --gradient-hero-dark: linear-gradient(135deg, hsl(220 25% 8%) 0%, hsl(220 20% 12%) 25%, hsl(220 15% 15%) 50%, hsl(220 10% 18%) 75%, hsl(220 8% 20%) 100%);
+    --gradient-accent-tech: linear-gradient(135deg, hsl(220 70% 50%) 0%, hsl(210 80% 55%) 25%, hsl(200 75% 60%) 50%, hsl(220 65% 65%) 75%, hsl(240 70% 60%) 100%);
+    --gradient-card-light: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(210 40% 99%) 50%, hsl(220 25% 98%) 100%);
+    --gradient-card-dark: linear-gradient(145deg, hsl(220 25% 12%) 0%, hsl(220 20% 15%) 50%, hsl(220 15% 18%) 100%);
+    --gradient-glass-light: linear-gradient(135deg, hsla(0 0% 100% / 0.9) 0%, hsla(210 40% 97% / 0.7) 100%);
+    --gradient-glass-dark: linear-gradient(135deg, hsla(220 25% 12% / 0.9) 0%, hsla(220 20% 15% / 0.7) 100%);
     
-    /* Luxury Shadows & Effects */
-    --shadow-luxury-soft: 0 8px 40px -12px hsl(230 15% 9% / 0.12);
-    --shadow-luxury-elegant: 0 25px 80px -15px hsl(230 15% 9% / 0.25);
-    --shadow-luxury-premium: 0 35px 120px -20px hsl(230 15% 9% / 0.35);
-    --shadow-accent-glow: 0 12px 50px -8px hsl(340 75% 55% / 0.4);
-    --shadow-gold-glow: 0 12px 50px -8px hsl(25 85% 65% / 0.3);
-    --shadow-text-luxury: 0 3px 8px hsl(230 15% 9% / 0.08);
-    --shadow-inset-luxury: inset 0 2px 4px hsl(0 0% 0% / 0.06);
+    /* Professional Shadows & Effects */
+    --shadow-professional-soft: 0 4px 20px -8px hsl(220 25% 15% / 0.1);
+    --shadow-professional-elegant: 0 20px 60px -12px hsl(220 25% 15% / 0.15);
+    --shadow-professional-premium: 0 25px 80px -15px hsl(220 25% 15% / 0.2);
+    --shadow-accent-glow: 0 8px 30px -6px hsl(220 70% 50% / 0.3);
+    --shadow-tech-glow: 0 8px 30px -6px hsl(210 80% 55% / 0.25);
+    --shadow-text-professional: 0 2px 4px hsl(220 25% 15% / 0.05);
+    --shadow-inset-professional: inset 0 1px 3px hsl(0 0% 0% / 0.05);
     
-    /* Glassmorphism Luxury */
-    --glass-bg-light: hsla(0 0% 100% / 0.85);
-    --glass-bg-dark: hsla(230 15% 12% / 0.85);
-    --glass-border-light: hsla(0 0% 100% / 0.18);
-    --glass-border-dark: hsla(240 12% 25% / 0.18);
-    --glass-backdrop: blur(24px) saturate(200%);
+    /* Glassmorphism Professional */
+    --glass-bg-light: hsla(0 0% 100% / 0.9);
+    --glass-bg-dark: hsla(220 25% 12% / 0.9);
+    --glass-border-light: hsla(0 0% 100% / 0.2);
+    --glass-border-dark: hsla(220 20% 20% / 0.2);
+    --glass-backdrop: blur(16px) saturate(150%);
     
-    /* Luxury Spacing */
-    --section-padding-luxury: clamp(6rem, 12vw, 12rem);
-    --container-padding-luxury: clamp(2rem, 6vw, 4rem);
+    /* Professional Spacing */
+    --section-padding-professional: clamp(4rem, 8vw, 8rem);
+    --container-padding-professional: clamp(1.5rem, 4vw, 3rem);
 
     /* Sidebar (keep existing) */
-    --sidebar-background: 42 25% 98%;
-    --sidebar-foreground: 230 15% 15%;
-    --sidebar-primary: 230 15% 9%;
-    --sidebar-primary-foreground: 42 33% 97%;
-    --sidebar-accent: 42 20% 96%;
-    --sidebar-accent-foreground: 230 15% 9%;
-    --sidebar-border: 42 20% 88%;
-    --sidebar-ring: 340 75% 55%;
+    --sidebar-background: 210 30% 98%;
+    --sidebar-foreground: 220 25% 15%;
+    --sidebar-primary: 220 70% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 210 20% 96%;
+    --sidebar-accent-foreground: 220 25% 15%;
+    --sidebar-border: 210 20% 90%;
+    --sidebar-ring: 220 70% 50%;
   }
 
   .dark {
-    /* Luxury Dark Mode */
-    --background: 230 20% 6%;
-    --foreground: 42 33% 97%;
+    /* Professional Dark Mode */
+    --background: 220 25% 8%;
+    --foreground: 210 40% 98%;
 
-    --card: 230 15% 9%;
-    --card-foreground: 42 33% 97%;
+    --card: 220 25% 12%;
+    --card-foreground: 210 40% 98%;
 
-    --popover: 230 15% 9%;
-    --popover-foreground: 42 33% 97%;
+    --popover: 220 25% 12%;
+    --popover-foreground: 210 40% 98%;
 
-    --primary: 42 33% 97%;
-    --primary-foreground: 230 20% 6%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 220 25% 8%;
 
-    --secondary: 230 12% 12%;
-    --secondary-foreground: 42 33% 97%;
+    --secondary: 220 20% 15%;
+    --secondary-foreground: 210 40% 98%;
 
-    --muted: 230 12% 12%;
-    --muted-foreground: 42 20% 70%;
+    --muted: 220 20% 15%;
+    --muted-foreground: 210 20% 70%;
 
-    --accent: 340 75% 55%;
+    --accent: 210 80% 55%;
     --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 75% 60%;
+    --destructive: 0 70% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 230 12% 18%;
-    --input: 230 12% 18%;
-    --ring: 340 75% 55%;
+    --border: 220 20% 20%;
+    --input: 220 20% 20%;
+    --ring: 210 80% 55%;
 
     /* Dark mode shadows */
-    --shadow-luxury-soft: 0 8px 40px -12px hsl(0 0% 0% / 0.4);
-    --shadow-luxury-elegant: 0 25px 80px -15px hsl(0 0% 0% / 0.6);
-    --shadow-luxury-premium: 0 35px 120px -20px hsl(0 0% 0% / 0.8);
+    --shadow-professional-soft: 0 4px 20px -8px hsl(0 0% 0% / 0.3);
+    --shadow-professional-elegant: 0 20px 60px -12px hsl(0 0% 0% / 0.4);
+    --shadow-professional-premium: 0 25px 80px -15px hsl(0 0% 0% / 0.5);
 
     /* Sidebar Dark */
-    --sidebar-background: 230 15% 8%;
-    --sidebar-foreground: 42 25% 90%;
-    --sidebar-primary: 340 75% 55%;
+    --sidebar-background: 220 25% 10%;
+    --sidebar-foreground: 210 30% 90%;
+    --sidebar-primary: 210 80% 55%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 230 12% 15%;
-    --sidebar-accent-foreground: 42 25% 90%;
-    --sidebar-border: 230 12% 15%;
-    --sidebar-ring: 340 75% 55%;
+    --sidebar-accent: 220 20% 18%;
+    --sidebar-accent-foreground: 210 30% 90%;
+    --sidebar-border: 220 20% 18%;
+    --sidebar-ring: 210 80% 55%;
   }
 }
 
@@ -162,29 +162,29 @@ All colors MUST be HSL.
     border: 1px solid var(--glass-border-dark);
   }
   
-  .luxury-gradient {
-    background: var(--gradient-accent-luxury);
+  .tech-gradient {
+    background: var(--gradient-accent-tech);
     background-size: 300% 300%;
     animation: gradient-shift 8s ease infinite;
   }
   
-  .luxury-text-shadow {
-    text-shadow: var(--shadow-text-luxury);
+  .professional-text-shadow {
+    text-shadow: var(--shadow-text-professional);
   }
   
-  .luxury-card {
+  .professional-card {
     background: var(--gradient-card-light);
     border: 1px solid hsl(var(--border));
-    box-shadow: var(--shadow-luxury-elegant);
+    box-shadow: var(--shadow-professional-elegant);
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .dark .luxury-card {
+  .dark .professional-card {
     background: var(--gradient-card-dark);
   }
   
-  .luxury-button {
-    background: var(--gradient-accent-luxury);
+  .professional-button {
+    background: var(--gradient-accent-tech);
     background-size: 300% 300%;
     box-shadow: var(--shadow-accent-glow);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -192,13 +192,13 @@ All colors MUST be HSL.
     overflow: hidden;
   }
   
-  .luxury-button:hover {
+  .professional-button:hover {
     animation: gradient-shift 1s ease infinite;
-    box-shadow: var(--shadow-luxury-premium);
+    box-shadow: var(--shadow-professional-premium);
     transform: translateY(-2px) scale(1.02);
   }
   
-  .luxury-button::before {
+  .professional-button::before {
     content: '';
     position: absolute;
     top: 0;
@@ -209,12 +209,12 @@ All colors MUST be HSL.
     transition: left 0.5s ease;
   }
   
-  .luxury-button:hover::before {
+  .professional-button:hover::before {
     left: 100%;
   }
   
-  .section-padding-luxury {
-    padding: var(--section-padding-luxury) var(--container-padding-luxury);
+  .section-padding-professional {
+    padding: var(--section-padding-professional) var(--container-padding-professional);
   }
   
   .shimmer-effect {
@@ -236,7 +236,7 @@ All colors MUST be HSL.
   .theme-toggle {
     background: var(--gradient-card-light);
     border: 1px solid hsl(var(--border));
-    box-shadow: var(--shadow-luxury-soft);
+    box-shadow: var(--shadow-professional-soft);
     backdrop-filter: var(--glass-backdrop);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -246,7 +246,7 @@ All colors MUST be HSL.
   }
   
   .theme-toggle:hover {
-    box-shadow: var(--shadow-luxury-elegant);
+    box-shadow: var(--shadow-professional-elegant);
     transform: scale(1.05);
   }
 }

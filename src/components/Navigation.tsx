@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { useTheme } from "next-themes";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo_black.png";
 import logoWhite from "@/assets/logo_white.png";
 
 export const Navigation = () => {
@@ -42,7 +42,7 @@ export const Navigation = () => {
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
       isScrolled 
-        ? 'glass-card shadow-luxury-elegant' 
+        ? 'glass-card shadow-sophisticated-elegant' 
         : 'bg-transparent'
     }`}>
       <div className="container mx-auto px-6">
@@ -55,7 +55,7 @@ export const Navigation = () => {
             {mounted && (
               <img 
                 src={theme === 'dark' ? logoWhite : logo} 
-                alt="Gabriele De Candido Logo" 
+                alt="Software Architect Logo" 
                 className="h-12 w-auto"
               />
             )}
@@ -67,10 +67,10 @@ export const Navigation = () => {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="text-foreground/80 hover:text-foreground font-medium transition-all duration-300 hover:scale-105 luxury-text-shadow relative group"
+                className="text-foreground/80 hover:text-foreground font-medium transition-all duration-300 hover:scale-105 sophisticated-text-shadow relative group"
               >
                 {item.label}
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 luxury-gradient transition-all duration-300 group-hover:w-full" />
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 tech-gradient transition-all duration-300 group-hover:w-full" />
               </button>
             ))}
             
@@ -79,9 +79,9 @@ export const Navigation = () => {
             
             <Button 
               onClick={() => scrollToSection('contact')}
-              className="luxury-button text-white font-semibold px-6 py-2 rounded-full"
+              className="sophisticated-button text-white font-semibold px-6 py-2 rounded-full"
             >
-              Let's Talk
+              Get in Touch
             </Button>
           </div>
 
@@ -100,13 +100,13 @@ export const Navigation = () => {
 
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <div className="md:hidden glass-card border-t shadow-luxury-elegant">
+          <div className="md:hidden glass-card border-t shadow-sophisticated-elegant">
             <div className="py-8 px-6 space-y-6">
               {navItems.slice(1).map((item) => (
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className="block text-foreground font-medium text-lg transition-all duration-300 hover:scale-105 hover:text-accent luxury-text-shadow"
+                  className="block text-foreground font-medium text-lg transition-all duration-300 hover:scale-105 hover:text-accent sophisticated-text-shadow"
                 >
                   {item.label}
                 </button>
@@ -116,9 +116,9 @@ export const Navigation = () => {
                 <ThemeToggle />
                 <Button 
                   onClick={() => scrollToSection('contact')}
-                  className="luxury-button text-white font-semibold px-6 py-2 rounded-full"
+                  className="sophisticated-button text-white font-semibold px-6 py-2 rounded-full"
                 >
-                  Let's Talk
+                  Get in Touch
                 </Button>
               </div>
             </div>
