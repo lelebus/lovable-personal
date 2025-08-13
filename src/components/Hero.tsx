@@ -59,7 +59,7 @@ export const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-8">
               <Button
                 size="lg"
-                className="sophisticated-button text-white font-semibold px-10 py-5 text-lg rounded-full shadow-sophisticated-premium hover:shadow-tech-glow transition-all duration-500"
+                className="sophisticated-button font-semibold px-10 py-5 text-lg rounded-full shadow-sophisticated-premium hover:shadow-tech-glow transition-all duration-500"
                 onClick={() => scrollToSection('services')}
               >
                 <span className="relative z-10">View Services</span>
@@ -68,7 +68,7 @@ export const Hero = () => {
                 variant="outline"
                 size="lg"
                 onClick={() => scrollToSection('projects')}
-                className="glass-card border-border hover:border-accent text-foreground hover:text-white font-semibold px-10 py-5 text-lg rounded-full backdrop-blur-premium transition-all duration-500 hover:scale-105 hover:shadow-sophisticated-elegant"
+                className="glass-card border-border dark:hover:bg-glass-bg-dark/90 hover:border-accent text-foreground font-semibold px-10 py-5 text-lg rounded-full backdrop-blur-premium transition-all duration-500 hover:scale-105 hover:shadow-sophisticated-elegant"
               >
                 View Projects
               </Button>

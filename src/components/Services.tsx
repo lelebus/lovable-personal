@@ -127,7 +127,7 @@ export const Services = () => {
               </div>
               <Button 
                 size="lg" 
-                className="sophisticated-button text-white font-semibold px-10 py-4 text-lg rounded-full shadow-sophisticated-premium hover:shadow-tech-glow transition-all duration-500 hover:scale-105"
+                className="sophisticated-button font-semibold px-10 py-4 text-lg rounded-full shadow-sophisticated-premium hover:shadow-tech-glow transition-all duration-500 hover:scale-105"
                 onClick={() => window.open('https://calendar.app.google/sp9qAT94MGxqTP8S6', '_blank')}
               >
                 Schedule a Call

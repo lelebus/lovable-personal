@@ -79,7 +79,7 @@ export const Navigation = () => {
             
             <Button 
               onClick={() => window.open('https://calendar.app.google/sp9qAT94MGxqTP8S6', '_blank')}
-              className="sophisticated-button text-white font-semibold px-6 py-2 rounded-full"
+              className="sophisticated-button font-semibold px-6 py-2 rounded-full"
             >
               Book a Call
             </Button>

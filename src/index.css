@@ -98,7 +98,7 @@ All colors MUST be HSL.
     --popover-foreground: 210 40% 98%;
 
     --primary: 210 40% 98%;
-    --primary-foreground: 220 25% 8%;
+    --primary-foreground: 0 0% 0%;
 
     --secondary: 200 20% 15%;
     --secondary-foreground: 210 40% 98%;
@@ -158,6 +158,11 @@ All colors MUST be HSL.
   }
   
   .dark .glass-card {
+    background: var(--glass-bg-dark);
+    border: 1px solid var(--glass-border-dark);
+  }
+  
+  .dark .glass-card:hover {
     background: var(--glass-bg-dark);
     border: 1px solid var(--glass-border-dark);
   }
