@@ -81,7 +81,7 @@ export const Hero = () => {
                 <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">Years Experience</div>
               </div>
               <div className="sophisticated-card p-8 rounded-3xl group hover:scale-105 transition-all duration-500 hover:shadow-sophisticated-premium">
-                <div className="text-4xl md:text-5xl font-bold text-foreground mb-3 group-hover:text-accent transition-colors duration-500 sophisticated-text-shadow">20+</div>
+                <div className="text-4xl md:text-5xl font-bold text-foreground mb-3 group-hover:text-accent transition-colors duration-500 sophisticated-text-shadow">50+</div>
                 <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">Projects Delivered</div>
               </div>
               <div className="sophisticated-card p-8 rounded-3xl group hover:scale-105 transition-all duration-500 hover:shadow-sophisticated-premium">

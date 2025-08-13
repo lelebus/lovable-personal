@@ -38,10 +38,6 @@ const projects = [
   }
 ];
 
-const codeworksProjects = [
-  "CovisionLab", "Endian", "Leitner", "BHeroes", "Unbound", "Goodify", "Gibi", "WeFix.it", "Properly Inc"
-];
-
 export const Projects = () => {
   return (
     <section id="projects" className="py-24 bg-background">
@@ -183,7 +179,7 @@ export const Projects = () => {
                   <a href="https://www.gibischool.it/" target="_blank" rel="noopener noreferrer" className="text-accent font-bold ml-1 hover:underline">Gibi</a>,
                   <a href="https://wefix.it/" target="_blank" rel="noopener noreferrer" className="text-accent font-bold ml-1 hover:underline">WeFix.it</a>,
                   <a href="https://www.covisionquality.com/en" target="_blank" rel="noopener noreferrer" className="text-accent font-bold ml-1 hover:underline">Covision Quality</a>,
-                  <a href="https://getproperly.com/" target="_blank" rel="noopener noreferrer" className="text-accent font-bold ml-1 hover:underline">Properly Inc</a>.
+                  <a href="https://getproperly.com/" target="_blank" rel="noopener noreferrer" className="text-accent font-bold ml-1 hover:underline">Properly</a>.
                 </p>
                 
               </div>
