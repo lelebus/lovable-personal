@@ -1,7 +1,11 @@
 import { Linkedin, Mail, Github, Code } from "lucide-react";
+import { useTheme } from "next-themes";
+import logo from "@/assets/logo_black.png";
+import logoWhite from "@/assets/logo_white.png";
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const { theme } = useTheme();
 
   return (
     <footer className="bg-primary text-primary-foreground py-12">
@@ -10,18 +14,22 @@ export const Footer = () => {
           {/* Brand */}
           <div className="text-center md:text-left">
             <div className="flex items-center gap-3 mb-2">
-              <Code className="w-6 h-6" />
-              <h3 className="text-xl font-serif font-bold">Gabriele De Candido</h3>
+            <img 
+                src={theme === 'dark' ? logo : logoWhite} 
+                alt="Gabriele De Candido Logo" 
+                className="h-12 w-auto"
+              />
+              <h3 className="text-xl font-serif font-bold">Gabriele De Candido.</h3>
             </div>
             <p className="text-primary-foreground/70">
-              Tech Enthusiast & Founder
+              Software Architect & Entrepreneur
             </p>
           </div>
 
           {/* Social Links */}
           <div className="flex items-center gap-6">
             <a 
-              href="mailto:leledecandi@gmail.com"
+              href="mailto:hello@decandido.dev"
               className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-colors"
               aria-label="Email"
             >

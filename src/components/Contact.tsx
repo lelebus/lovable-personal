@@ -1,219 +1,106 @@
+import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Label } from "@/components/ui/label";
-import { Mail, Phone, Linkedin, MapPin, Calendar, MessageSquare } from "lucide-react";
-import { useState } from "react";
-import { useToast } from "@/hooks/use-toast";
-
-const contactInfo = [
-  {
-    icon: Mail,
-    title: "Email",
-    value: "leledecandi@gmail.com",
-    href: "mailto:leledecandi@gmail.com"
-  },
-  {
-    icon: Linkedin,
-    title: "LinkedIn",
-    value: "linkedin.com/in/de-candido",
-    href: "https://linkedin.com/in/de-candido"
-  },
-  {
-    icon: Phone,
-    title: "Phone",
-    value: "+39 3357812244",
-    href: "tel:+393357812244"
-  },
-  {
-    icon: MapPin,
-    title: "Location",
-    value: "Bolzano, Trentino-Alto Adige, Italy",
-    href: null
-  }
-];
+import { Mail, Linkedin, Phone, MapPin, Calendar } from "lucide-react";
 
 export const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    company: "",
-    project: "",
-    message: ""
-  });
-  const { toast } = useToast();
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    
-    // Simulate form submission
-    toast({
-      title: "Message Sent!",
-      description: "Thank you for reaching out, Gabriele will get back to you within 24 hours.",
-    });
-    
-    setFormData({ name: "", email: "", company: "", project: "", message: "" });
-  };
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData(prev => ({
-      ...prev,
-      [e.target.name]: e.target.value
-    }));
-  };
-
   return (
-    <section id="contact" className="py-24 bg-gradient-to-b from-background to-secondary">
+    <section id="contact" className="py-32 bg-gradient-to-b from-muted to-background">
       <div className="container mx-auto px-6">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6 text-foreground">
-            Let's Build Something Amazing Together
+        {/* Hero Headline */}
+        <div className="text-center mb-20">
+          <h2 className="text-4xl md:text-5xl font-serif font-bold mb-8 bg-gradient-to-r from-foreground to-muted-foreground bg-clip-text text-transparent leading-[1.1] py-2">
+            Your Vision. My Expertise. Let's Build What's Next.
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            From startup ventures to enterprise solutions, I help companies architect, build, and scale 
-            their digital products. Let's discuss your technical challenges and explore innovative solutions.
+          <p className="text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto font-medium leading-relaxed">
+            Big ideas deserve flawless execution. Whether you're launching a startup or scaling an enterprise platform, 
+            I help you cut through the technical noise, streamline execution, and create a product built for growth.
+          </p>
+          <p className="text-lg md:text-xl text-foreground max-w-2xl mx-auto mt-6 font-medium">
+            Let's talk — and start turning your vision into reality.
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-16">
-          {/* Contact Form */}
-          <Card className="sophisticated-card">
-            <CardHeader>
-              <CardTitle className="text-2xl font-serif text-foreground">Project Inquiry</CardTitle>
-              <CardDescription>
-                Tell me about your project requirements, technical challenges, or business goals. I'll respond within 24 hours.
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div className="grid md:grid-cols-2 gap-4">
-                  <div className="space-y-2">
-                    <Label htmlFor="name">Full Name</Label>
-                    <Input
-                      id="name"
-                      name="name"
-                      value={formData.name}
-                      onChange={handleChange}
-                      required
-                      className="border-border focus:ring-accent"
-                    />
+        <div className="max-w-4xl mx-auto">
+          {/* Contact Information */}
+          <Card className="bg-card border-border shadow-premium mb-12">
+            <CardContent className="p-8">
+              <div className="grid md:grid-cols-2 gap-8">
+                <div className="space-y-6">
+                  <div className="flex items-center space-x-4">
+                    <div className="flex items-center justify-center w-12 h-12 bg-accent/10 rounded-full">
+                      <Mail className="w-5 h-5 text-accent" />
+                    </div>
+                    <div>
+                      <p className="text-sm text-muted-foreground">Email</p>
+                      <a href="mailto:hello@decandido.dev" className="text-lg font-medium text-foreground hover:text-accent transition-colors">
+                      hello@decandido.dev
+                      </a>
+                    </div>
                   </div>
-                  <div className="space-y-2">
-                    <Label htmlFor="email">Email Address</Label>
-                    <Input
-                      id="email"
-                      name="email"
-                      type="email"
-                      value={formData.email}
-                      onChange={handleChange}
-                      required
-                      className="border-border focus:ring-accent"
-                    />
+                  
+                  <div className="flex items-center space-x-4">
+                    <div className="flex items-center justify-center w-12 h-12 bg-accent/10 rounded-full">
+                      <Linkedin className="w-5 h-5 text-accent" />
+                    </div>
+                    <div>
+                      <p className="text-sm text-muted-foreground">LinkedIn</p>
+                      <a href="https://linkedin.com/in/de-candido" target="_blank" rel="noopener noreferrer" className="text-lg font-medium text-foreground hover:text-accent transition-colors">
+                        LinkedIn
+                      </a>
+                    </div>
                   </div>
                 </div>
                 
-                <div className="grid md:grid-cols-2 gap-4">
-                  <div className="space-y-2">
-                    <Label htmlFor="company">Company</Label>
-                    <Input
-                      id="company"
-                      name="company"
-                      value={formData.company}
-                      onChange={handleChange}
-                      className="border-border focus:ring-accent"
-                    />
+                <div className="space-y-6">
+                  <div className="flex items-center space-x-4">
+                    <div className="flex items-center justify-center w-12 h-12 bg-accent/10 rounded-full">
+                      <Phone className="w-5 h-5 text-accent" />
+                    </div>
+                    <div>
+                      <p className="text-sm text-muted-foreground">Phone</p>
+                      <a href="tel:+393357812244" className="text-lg font-medium text-foreground hover:text-accent transition-colors">
+                        +39 335 781 2244
+                      </a>
+                    </div>
                   </div>
-                  <div className="space-y-2">
-                    <Label htmlFor="project">Project Type</Label>
-                    <Input
-                      id="project"
-                      name="project"
-                      value={formData.project}
-                      onChange={handleChange}
-                      placeholder="e.g., System Design, Architecture Review"
-                      className="border-border focus:ring-accent"
-                    />
+                  
+                  <div className="flex items-center space-x-4">
+                    <div className="flex items-center justify-center w-12 h-12 bg-accent/10 rounded-full">
+                      <MapPin className="w-5 h-5 text-accent" />
+                    </div>
+                    <div>
+                      <p className="text-sm text-muted-foreground">Location</p>
+                      <p className="text-lg font-medium text-foreground">
+                        Bolzano, South Tyrol, Italy
+                      </p>
+                    </div>
                   </div>
                 </div>
-                
-                <div className="space-y-2">
-                  <Label htmlFor="message">Project Details</Label>
-                  <Textarea
-                    id="message"
-                    name="message"
-                    value={formData.message}
-                    onChange={handleChange}
-                    rows={6}
-                    required
-                    className="border-border focus:ring-accent resize-none"
-                    placeholder="Describe your project requirements, technical challenges, timeline, and how I can help..."
-                  />
-                </div>
-                
-                <Button 
-                  type="submit" 
-                  size="lg" 
-                  className="w-full sophisticated-button text-white shadow-sophisticated-premium"
-                >
-                  Send Project Inquiry
-                </Button>
-              </form>
+              </div>
             </CardContent>
           </Card>
 
-          {/* Contact Information */}
-          <div className="space-y-8">
-            <Card className="sophisticated-card">
-              <CardHeader>
-                <CardTitle className="text-2xl font-serif text-foreground">Get In Touch</CardTitle>
-                <CardDescription>
-                  Choose your preferred way to connect. I'm always excited to discuss new technical challenges and business opportunities.
-                </CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-6">
-                {contactInfo.map((item, index) => (
-                  <div key={index} className="flex items-start gap-4 p-4 rounded-lg hover:bg-muted/50 transition-colors">
-                    <div className="w-12 h-12 bg-gradient-to-br from-accent/20 to-accent/30 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <item.icon className="w-6 h-6 text-accent" />
-                    </div>
-                    <div className="flex-1">
-                      <h3 className="font-medium mb-1 text-foreground">{item.title}</h3>
-                      {item.href ? (
-                        <a 
-                          href={item.href}
-                          className="text-muted-foreground hover:text-accent transition-colors"
-                          target={item.href.startsWith('http') ? '_blank' : undefined}
-                          rel={item.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-                        >
-                          {item.value}
-                        </a>
-                      ) : (
-                        <span className="text-muted-foreground">{item.value}</span>
-                      )}
-                    </div>
-                  </div>
-                ))}
-              </CardContent>
-            </Card>
-
-            <Card className="bg-gradient-to-br from-accent/10 to-accent/5 border-accent/20 shadow-sophisticated-soft">
-              <CardContent className="p-8 text-center">
-                <h3 className="text-xl font-serif font-bold mb-4 text-foreground">Ready to Start?</h3>
-                <p className="text-muted-foreground mb-6">
-                  Let's schedule a consultation to discuss your technical challenges, business goals, and explore innovative solutions together.
-                </p>
-                <Button 
-                  variant="outline" 
-                  size="lg"
-                  className="border-accent text-accent hover:bg-accent hover:text-accent-foreground"
-                >
-                  <Calendar className="w-4 h-4 mr-2" />
-                  Schedule Consultation
-                </Button>
-              </CardContent>
-            </Card>
-          </div>
+          {/* Call-to-Action Section */}
+          <Card className="bg-gradient-to-r from-accent/5 to-primary/5 border-accent/20 shadow-premium">
+            <CardContent className="p-12 text-center">
+              <div className="flex items-center justify-center w-16 h-16 bg-accent/10 rounded-full mx-auto mb-6">
+                <Calendar className="w-8 h-8 text-accent" />
+              </div>
+              
+              <h3 className="text-3xl md:text-4xl font-serif font-bold mb-6 text-foreground">
+                Book Your Consultation
+              </h3>
+              
+              <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8 leading-relaxed">
+                In 30 minutes, we'll review your idea, assess your team's scalability, and map out the smartest path forward. 
+                I only take on projects I believe in — so if we work together, you know I'm invested in your success.
+              </p>
+              
+              <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 text-lg px-8 py-6 h-auto font-semibold shadow-lg hover:shadow-xl transition-all duration-300">
+                Schedule a Consultation
+              </Button>
+            </CardContent>
+          </Card>
         </div>
       </div>
     </section>
