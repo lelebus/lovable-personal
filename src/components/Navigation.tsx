@@ -78,10 +78,10 @@ export const Navigation = () => {
             <ThemeToggle />
             
             <Button 
-              onClick={() => scrollToSection('contact')}
+              onClick={() => window.open('https://calendar.app.google/sp9qAT94MGxqTP8S6', '_blank')}
               className="sophisticated-button text-white font-semibold px-6 py-2 rounded-full"
             >
-              Get in Touch
+              Book a Call
             </Button>
           </div>
 
@@ -115,10 +115,10 @@ export const Navigation = () => {
               <div className="flex items-center justify-between pt-4 border-t border-border">
                 <ThemeToggle />
                 <Button 
-                  onClick={() => scrollToSection('contact')}
+                  onClick={() => window.open('https://calendar.app.google/sp9qAT94MGxqTP8S6', '_blank')}
                   className="sophisticated-button text-white font-semibold px-6 py-2 rounded-full"
                 >
-                  Get in Touch
+                  Book a Call
                 </Button>
               </div>
             </div>

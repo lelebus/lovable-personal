@@ -96,7 +96,11 @@ export const Contact = () => {
                 I only take on projects I believe in — so if we work together, you know I'm invested in your success.
               </p>
               
-              <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 text-lg px-8 py-6 h-auto font-semibold shadow-lg hover:shadow-xl transition-all duration-300">
+              <Button 
+                size="lg" 
+                className="bg-accent text-accent-foreground hover:bg-accent/90 text-lg px-8 py-6 h-auto font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
+                onClick={() => window.open('https://calendar.app.google/sp9qAT94MGxqTP8S6', '_blank')}
+              >
                 Schedule a Consultation
               </Button>
             </CardContent>
