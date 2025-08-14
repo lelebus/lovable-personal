@@ -147,6 +147,23 @@ All colors MUST be HSL.
   html {
     scroll-behavior: smooth;
   }
+
+  /* Responsive text sizing */
+  h1 {
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl;
+  }
+  
+  h2 {
+    @apply text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl;
+  }
+  
+  h3 {
+    @apply text-lg sm:text-xl md:text-2xl lg:text-3xl;
+  }
+  
+  p {
+    @apply text-sm sm:text-base lg:text-lg;
+  }
 }
 
 @layer components {
@@ -253,5 +270,58 @@ All colors MUST be HSL.
   .theme-toggle:hover {
     box-shadow: var(--shadow-professional-elegant);
     transform: scale(1.05);
+  }
+
+  /* Responsive utilities */
+  .mobile-first {
+    @apply w-full;
+  }
+  
+  .tablet-up {
+    @apply hidden md:block;
+  }
+  
+  .desktop-up {
+    @apply hidden lg:block;
+  }
+  
+  .mobile-only {
+    @apply block md:hidden;
+  }
+  
+  .tablet-only {
+    @apply hidden md:block lg:hidden;
+  }
+  
+  /* Responsive spacing */
+  .responsive-padding {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+  
+  .responsive-margin {
+    @apply my-8 sm:my-12 lg:my-16;
+  }
+  
+  /* Responsive grid */
+  .responsive-grid {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8;
+  }
+  
+  .responsive-grid-2 {
+    @apply grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8;
+  }
+  
+  /* Responsive text */
+  .responsive-text {
+    @apply text-sm sm:text-base lg:text-lg;
+  }
+  
+  .responsive-heading {
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl;
+  }
+  
+  /* Responsive buttons */
+  .responsive-button {
+    @apply px-4 sm:px-6 lg:px-8 py-2 sm:py-3 lg:py-4 text-sm sm:text-base lg:text-lg;
   }
 }

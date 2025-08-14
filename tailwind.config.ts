@@ -12,10 +12,28 @@ export default {
 	theme: {
 		container: {
 			center: true,
-			padding: '2rem',
+			padding: {
+				DEFAULT: '1rem',
+				sm: '1.5rem',
+				lg: '2rem',
+				xl: '3rem',
+				'2xl': '4rem'
+			},
 			screens: {
+				sm: '640px',
+				md: '768px',
+				lg: '1024px',
+				xl: '1280px',
 				'2xl': '1400px'
 			}
+		},
+		screens: {
+			'xs': '475px',
+			'sm': '640px',
+			'md': '768px',
+			'lg': '1024px',
+			'xl': '1280px',
+			'2xl': '1536px',
 		},
 		extend: {
 			fontFamily: {
@@ -114,6 +132,10 @@ export default {
 					'0%': { opacity: '0', transform: 'translateX(-100px) scale(0.9)' },
 					'100%': { opacity: '1', transform: 'translateX(0) scale(1)' }
 				},
+				'slide-in-right-mobile': {
+					'0%': { opacity: '0', transform: 'translateX(30px)' },
+					'100%': { opacity: '1', transform: 'translateX(0)' }
+				},
 				'float': {
 					'0%, 100%': { transform: 'translateY(0px) rotate(0deg)' },
 					'50%': { transform: 'translateY(-20px) rotate(2deg)' }
@@ -140,6 +162,7 @@ export default {
 				'scale-in': 'scale-in 0.6s cubic-bezier(0.34, 1.56, 0.64, 1)',
 				'slide-in-right': 'slide-in-right 0.7s cubic-bezier(0.4, 0, 0.2, 1)',
 				'slide-in-left': 'slide-in-left 0.7s cubic-bezier(0.4, 0, 0.2, 1)',
+				'slide-in-right-mobile': 'slide-in-right-mobile 0.5s ease-out forwards',
 				'float': 'float 6s ease-in-out infinite',
 				'glow-pulse': 'glow-pulse 2s ease-in-out infinite',
 				'gradient-shift': 'gradient-shift 8s ease infinite',
@@ -150,6 +173,11 @@ export default {
 			},
 			backdropBlur: {
 				'premium': '20px'
+			},
+			spacing: {
+				'18': '4.5rem',
+				'88': '22rem',
+				'128': '32rem',
 			}
 		}
 	},

@@ -10,50 +10,50 @@ export const Footer = () => {
   const { t } = useTranslation();
 
   return (
-    <footer className="bg-primary text-primary-foreground py-12">
-      <div className="container mx-auto px-6">
-        <div className="flex flex-col md:flex-row justify-between items-center gap-8">
+    <footer className="bg-primary text-primary-foreground py-8 sm:py-12">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-6 sm:gap-8">
           {/* Brand */}
           <div className="text-center md:text-left">
-            <div className="flex items-center gap-3 mb-2">
+            <div className="flex items-center gap-2 sm:gap-3 mb-2">
             <img 
                 src={theme === 'dark' ? logo : logoWhite} 
                 alt="Gabriele De Candido Logo" 
-                className="h-12 w-auto"
+                className="h-8 sm:h-12 w-auto"
               />
-              <h3 className="text-xl font-serif font-bold">Gabriele De Candido.</h3>
+              <h3 className="text-lg sm:text-xl font-serif font-bold">Gabriele De Candido.</h3>
             </div>
-            <p className="text-primary-foreground/70">
+            <p className="text-primary-foreground/70 text-sm sm:text-base">
               Software Architect & Entrepreneur
             </p>
           </div>
 
           {/* Social Links */}
-          <div className="flex items-center gap-6">
+          <div className="flex items-center gap-4 sm:gap-6">
             <a 
               href="mailto:hello@decandido.dev"
-              className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-colors"
+              className="w-8 h-8 sm:w-10 sm:h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-colors"
               aria-label="Email"
             >
-              <Mail className="w-5 h-5" />
+              <Mail className="w-4 h-4 sm:w-5 sm:h-5" />
             </a>
             <a 
               href="https://linkedin.com/in/de-candido"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-colors"
+              className="w-8 h-8 sm:w-10 sm:h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-colors"
               aria-label="LinkedIn"
             >
-              <Linkedin className="w-5 h-5" />
+              <Linkedin className="w-4 h-4 sm:w-5 sm:h-5" />
             </a>
           </div>
         </div>
 
-        <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
-          <p className="text-primary-foreground/70 text-sm">
+        <div className="border-t border-primary-foreground/20 mt-6 sm:mt-8 pt-6 sm:pt-8 text-center">
+          <p className="text-primary-foreground/70 text-xs sm:text-sm">
             {t('footer.copyright', { year: currentYear })}
           </p>
-          <p className="text-primary-foreground/50 text-xs mt-2">
+          <p className="text-primary-foreground/50 text-xs mt-1 sm:mt-2">
             {t('footer.madeWith')}
           </p>
         </div>
