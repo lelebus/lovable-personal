@@ -96,7 +96,7 @@ export const Services = () => {
           ))}
           
           {/* Call to Action Card */}
-          <Card className="sophisticated-card hover:shadow-sophisticated-premium transition-all duration-300 hover:-translate-y-2 group bg-gradient-to-br from-accent/5 to-accent/10 border-2 border-accent/20 sm:col-span-1 lg:col-span-2">
+          <Card className="sophisticated-card hover:shadow-sophisticated-premium transition-all duration-300 hover:-translate-y-2 group bg-gradient-to-br from-accent/5 to-accent/10 border-2 border-accent/20">
             <CardHeader className="pb-4 sm:pb-6 text-center">
               <div className="mx-auto w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br from-accent/30 to-accent/50 rounded-2xl sm:rounded-3xl flex items-center justify-center mb-4 sm:mb-6 group-hover:scale-110 transition-transform duration-300">
                 <Zap className="w-8 h-8 sm:w-10 sm:h-10 text-accent" />
