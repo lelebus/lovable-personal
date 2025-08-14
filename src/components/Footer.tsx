@@ -1,11 +1,13 @@
 import { Linkedin, Mail, Github, Code } from "lucide-react";
 import { useTheme } from "next-themes";
+import { useTranslation } from "react-i18next";
 import logo from "@/assets/logo_black.png";
 import logoWhite from "@/assets/logo_white.png";
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
   const { theme } = useTheme();
+  const { t } = useTranslation();
 
   return (
     <footer className="bg-primary text-primary-foreground py-12">
@@ -49,7 +51,7 @@ export const Footer = () => {
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
           <p className="text-primary-foreground/70 text-sm">
-            © {currentYear} Gabriele De Candido. All rights reserved.
+            {t('footer.copyright', { year: currentYear })}
           </p>
         </div>
       </div>

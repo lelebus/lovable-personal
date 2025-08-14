@@ -2,6 +2,8 @@ import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { useTranslation } from "react-i18next";
 import { useTheme } from "next-themes";
 import logo from "@/assets/logo_black.png";
 import logoWhite from "@/assets/logo_white.png";
@@ -11,6 +13,7 @@ export const Navigation = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
   const { theme } = useTheme();
+  const { t } = useTranslation();
 
   useEffect(() => {
     setMounted(true);
@@ -32,11 +35,11 @@ export const Navigation = () => {
   };
 
   const navItems = [
-    { label: "Home", id: "home" },
-    { label: "Services", id: "services" },
-    { label: "Experience", id: "projects" },
-    { label: "Meet Your Guide", id: "about" },
-    { label: "Contact", id: "contact" }
+    { label: t('navigation.home'), id: "home" },
+    { label: t('navigation.services'), id: "services" },
+    { label: t('navigation.experience'), id: "projects" },
+    { label: t('navigation.meetYourGuide'), id: "about" },
+    { label: t('navigation.contact'), id: "contact" }
   ];
 
   return (
@@ -74,6 +77,9 @@ export const Navigation = () => {
               </button>
             ))}
             
+            {/* Language Switcher */}
+            <LanguageSwitcher />
+            
             {/* Theme Toggle */}
             <ThemeToggle />
             
@@ -81,7 +87,7 @@ export const Navigation = () => {
               onClick={() => window.open('https://calendar.app.google/sp9qAT94MGxqTP8S6', '_blank')}
               className="sophisticated-button font-semibold px-6 py-2 rounded-full"
             >
-              Book a Call
+              {t('navigation.bookACall')}
             </Button>
           </div>
 
@@ -113,12 +119,13 @@ export const Navigation = () => {
               ))}
               
               <div className="flex items-center justify-between pt-4 border-t border-border">
+                <LanguageSwitcher />
                 <ThemeToggle />
                 <Button 
                   onClick={() => window.open('https://calendar.app.google/sp9qAT94MGxqTP8S6', '_blank')}
                   className="sophisticated-button text-white font-semibold px-6 py-2 rounded-full"
                 >
-                  Book a Call
+                  {t('navigation.bookACall')}
                 </Button>
               </div>
             </div>

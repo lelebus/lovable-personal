@@ -1,0 +1,82 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "experience": "Experiencia",
+    "meetYourGuide": "Conoce tu Guía",
+    "contact": "Contacto",
+    "bookACall": "Reserva una Llamada"
+  },
+  "hero": {
+    "title": "Tu Socio para el Éxito Digital",
+    "subtitle": "Ayudo a emprendedores ambiciosos y empresas a construir productos digitales que generan resultados reales. Desde el concepto hasta el lanzamiento, soy tu socio estratégico en el mundo digital.",
+    "cta": "Construyamos Algo Increíble",
+    "scrollDown": "Desplázate Abajo"
+  },
+  "services": {
+    "title": "Lo que Hago",
+    "subtitle": "Soluciones digitales integrales adaptadas a las necesidades de tu empresa",
+    "webDevelopment": {
+      "title": "Desarrollo Web",
+      "description": "Sitios web y aplicaciones web personalizadas construidas con tecnologías modernas y mejores prácticas."
+    },
+    "mobileApps": {
+      "title": "Aplicaciones Móviles",
+      "description": "Aplicaciones móviles nativas y multiplataforma para iOS y Android."
+    },
+    "consulting": {
+      "title": "Consultoría Digital",
+      "description": "Orientación estratégica para ayudarte a tomar decisiones informadas sobre tu presencia digital."
+    },
+    "uiux": {
+      "title": "Diseño UI/UX",
+      "description": "Interfaces hermosas e intuitivas que mejoran la experiencia del usuario y aumentan el engagement."
+    }
+  },
+  "projects": {
+    "title": "Proyectos y Emprendimientos Destacados",
+    "subtitle": "Una selección de plataformas innovadoras y startups que he fundado y construido, demostrando experiencia en emprendimiento, liderazgo técnico y desarrollo de productos digitales.",
+    "viewProject": "Visitar",
+    "technologies": "Tecnologías Utilizadas"
+  },
+  "about": {
+    "title": "Tu Socio para Escalar Ideas Audaces",
+    "subtitle": "Los grandes negocios no fallan por malas ideas — fallan porque el equipo, el proceso y la ejecución no pueden seguir el ritmo de la visión. Me aseguro de que eso nunca te pase a ti.",
+    "description": "Estás aquí porque estás construyendo algo grande. Pero en este momento, tus operaciones tecnológicas pueden sentirse impredecibles — fechas límite perdidas, prioridades poco claras, un equipo que trabaja duro pero no siempre en la dirección correcta.",
+    "expertise": "Áreas de Experticia",
+    "experience": "Años de Experiencia",
+    "projects": "Proyectos Entregados",
+    "clients": "Clientes Satisfechos"
+  },
+  "contact": {
+    "title": "Tu Visión. Mi Experticia. Construyamos el Futuro.",
+    "subtitle": "Las grandes ideas merecen una ejecución perfecta. Ya sea que estés lanzando una startup o escalando una plataforma empresarial, te ayudo a superar el ruido técnico, simplificar la ejecución y crear un producto construido para el crecimiento.",
+    "name": "Nombre",
+    "email": "Email",
+    "message": "Mensaje",
+    "sendMessage": "Enviar Mensaje",
+    "or": "o",
+    "bookCall": "Reserva tu Consulta",
+    "getInTouch": "Hablemos — y comencemos a convertir tu visión en realidad.",
+    "location": "Ubicación",
+    "emailLabel": "Email",
+    "phoneLabel": "Teléfono"
+  },
+  "footer": {
+    "copyright": "© {{year}} Gabriele De Candido. Todos los derechos reservados.",
+    "madeWith": "Hecho con ❤️ y ☕",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Ocurrió un error",
+    "success": "¡Éxito!",
+    "close": "Cerrar",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "submit": "Enviar",
+    "learnMore": "Ver Servicios",
+    "getStarted": "Ver Proyectos"
+  }
+}

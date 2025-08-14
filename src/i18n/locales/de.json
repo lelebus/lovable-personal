@@ -1,0 +1,82 @@
+{
+  "navigation": {
+    "home": "Startseite",
+    "services": "Dienstleistungen",
+    "experience": "Erfahrung",
+    "meetYourGuide": "Lernen Sie Ihren Guide kennen",
+    "contact": "Kontakt",
+    "bookACall": "Anruf buchen"
+  },
+  "hero": {
+    "title": "Ihr Partner für digitalen Erfolg",
+    "subtitle": "Ich helfe ehrgeizigen Unternehmern und Unternehmen dabei, digitale Produkte zu entwickeln, die echte Ergebnisse liefern. Von der Idee bis zum Launch bin ich Ihr strategischer Partner in der digitalen Welt.",
+    "cta": "Lassen Sie uns etwas Großartiges aufbauen",
+    "scrollDown": "Nach unten scrollen"
+  },
+  "services": {
+    "title": "Was ich mache",
+    "subtitle": "Umfassende digitale Lösungen, die auf Ihre Geschäftsanforderungen zugeschnitten sind",
+    "webDevelopment": {
+      "title": "Webentwicklung",
+      "description": "Maßgeschneiderte Websites und Webanwendungen, die mit modernen Technologien und bewährten Praktiken entwickelt werden."
+    },
+    "mobileApps": {
+      "title": "Mobile Apps",
+      "description": "Native und plattformübergreifende mobile Anwendungen für iOS und Android."
+    },
+    "consulting": {
+      "title": "Digitale Beratung",
+      "description": "Strategische Beratung, um Ihnen bei fundierten Entscheidungen über Ihre digitale Präsenz zu helfen."
+    },
+    "uiux": {
+      "title": "UI/UX-Design",
+      "description": "Schöne, intuitive Benutzeroberflächen, die die Benutzererfahrung verbessern und das Engagement steigern."
+    }
+  },
+  "projects": {
+    "title": "Ausgewählte Projekte und Unternehmen",
+    "subtitle": "Eine Auswahl innovativer Plattformen und Startups, die ich gegründet und aufgebaut habe, und die meine Expertise in Unternehmertum, technischer Führung und digitaler Produktentwicklung demonstrieren.",
+    "viewProject": "Besuchen",
+    "technologies": "Verwendete Technologien"
+  },
+  "about": {
+    "title": "Ihr Partner für die Skalierung mutiger Ideen",
+    "subtitle": "Große Unternehmen scheitern nicht an schlechten Ideen — sie scheitern, weil das Team, der Prozess und die Ausführung nicht mit der Vision Schritt halten können. Ich stelle sicher, dass Ihnen das nie passiert.",
+    "description": "Sie sind hier, weil Sie etwas Großes aufbauen. Aber im Moment fühlen sich Ihre Tech-Operationen möglicherweise unvorhersehbar an — verpasste Deadlines, unklare Prioritäten, ein Team, das hart arbeitet, aber nicht immer in die richtige Richtung.",
+    "expertise": "Fachbereiche",
+    "experience": "Jahre Erfahrung",
+    "projects": "Abgeschlossene Projekte",
+    "clients": "Zufriedene Kunden"
+  },
+  "contact": {
+    "title": "Ihre Vision. Meine Expertise. Lassen Sie uns die Zukunft aufbauen.",
+    "subtitle": "Große Ideen verdienen eine makellose Ausführung. Ob Sie ein Startup lancieren oder eine Unternehmensplattform skalieren, ich helfe Ihnen dabei, den technischen Lärm zu überwinden, die Ausführung zu optimieren und ein Produkt zu schaffen, das für Wachstum konzipiert ist.",
+    "name": "Name",
+    "email": "E-Mail",
+    "message": "Nachricht",
+    "sendMessage": "Nachricht senden",
+    "or": "oder",
+    "bookCall": "Ihre Beratung buchen",
+    "getInTouch": "Lassen Sie uns sprechen — und beginnen Sie, Ihre Vision in die Realität umzusetzen.",
+    "location": "Standort",
+    "emailLabel": "E-Mail",
+    "phoneLabel": "Telefon"
+  },
+  "footer": {
+    "copyright": "© {{year}} Gabriele De Candido. Alle Rechte vorbehalten.",
+    "madeWith": "Gemacht mit ❤️ und ☕",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen"
+  },
+  "common": {
+    "loading": "Lädt...",
+    "error": "Ein Fehler ist aufgetreten",
+    "success": "Erfolg!",
+    "close": "Schließen",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "submit": "Absenden",
+    "learnMore": "Dienstleistungen anzeigen",
+    "getStarted": "Projekte anzeigen"
+  }
+}

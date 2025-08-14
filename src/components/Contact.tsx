@@ -1,22 +1,24 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Mail, Linkedin, Phone, MapPin, Calendar } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export const Contact = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="contact" className="py-32 bg-gradient-to-b from-muted to-background">
       <div className="container mx-auto px-6">
         {/* Hero Headline */}
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-5xl font-serif font-bold mb-8 bg-gradient-to-r from-foreground to-muted-foreground bg-clip-text text-transparent leading-[1.1] py-2">
-            Your Vision. My Expertise. Let's Build What's Next.
+            {t('contact.title')}
           </h2>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto font-medium leading-relaxed">
-            Big ideas deserve flawless execution. Whether you're launching a startup or scaling an enterprise platform, 
-            I help you cut through the technical noise, streamline execution, and create a product built for growth.
+            {t('contact.subtitle')}
           </p>
           <p className="text-lg md:text-xl text-foreground max-w-2xl mx-auto mt-6 font-medium">
-            Let's talk — and start turning your vision into reality.
+            {t('contact.getInTouch')}
           </p>
         </div>
 
@@ -31,9 +33,9 @@ export const Contact = () => {
                       <Mail className="w-5 h-5 text-accent" />
                     </div>
                     <div>
-                      <p className="text-sm text-muted-foreground">Email</p>
-                      <a href="mailto:hello@decandido.dev" className="text-lg font-medium text-foreground hover:text-accent transition-colors">
-                      hello@decandido.dev
+                      <p className="text-sm text-muted-foreground">{t('contact.emailLabel')}</p>
+                      <a href={`mailto:${t('contact.contactInfo.email')}`} className="text-lg font-medium text-foreground hover:text-accent transition-colors">
+                        {t('contact.contactInfo.email')}
                       </a>
                     </div>
                   </div>
@@ -43,7 +45,7 @@ export const Contact = () => {
                       <Linkedin className="w-5 h-5 text-accent" />
                     </div>
                     <div>
-                      <p className="text-sm text-muted-foreground">LinkedIn</p>
+                      <p className="text-sm text-muted-foreground">{t('contact.contactInfo.linkedin')}</p>
                       <a href="https://linkedin.com/in/de-candido" target="_blank" rel="noopener noreferrer" className="text-lg font-medium text-foreground hover:text-accent transition-colors">
                         LinkedIn
                       </a>
@@ -57,9 +59,9 @@ export const Contact = () => {
                       <Phone className="w-5 h-5 text-accent" />
                     </div>
                     <div>
-                      <p className="text-sm text-muted-foreground">Phone</p>
-                      <a href="tel:+393357812244" className="text-lg font-medium text-foreground hover:text-accent transition-colors">
-                        +39 335 781 2244
+                      <p className="text-sm text-muted-foreground">{t('contact.phoneLabel')}</p>
+                      <a href={`tel:${t('contact.contactInfo.phone')}`} className="text-lg font-medium text-foreground hover:text-accent transition-colors">
+                        {t('contact.contactInfo.phone')}
                       </a>
                     </div>
                   </div>
@@ -69,9 +71,9 @@ export const Contact = () => {
                       <MapPin className="w-5 h-5 text-accent" />
                     </div>
                     <div>
-                      <p className="text-sm text-muted-foreground">Location</p>
+                      <p className="text-sm text-muted-foreground">{t('contact.location')}</p>
                       <p className="text-lg font-medium text-foreground">
-                        Bolzano, South Tyrol, Italy
+                        {t('contact.contactInfo.location')}
                       </p>
                     </div>
                   </div>
@@ -88,12 +90,11 @@ export const Contact = () => {
               </div>
               
               <h3 className="text-3xl md:text-4xl font-serif font-bold mb-6 text-foreground">
-                Book Your Consultation
+                {t('contact.consultation.title')}
               </h3>
               
               <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8 leading-relaxed">
-                In 30 minutes, we'll review your idea, assess your team's scalability, and map out the smartest path forward. 
-                I only take on projects I believe in — so if we work together, you know I'm invested in your success.
+                {t('contact.consultation.description')}
               </p>
               
               <Button 
@@ -101,7 +102,7 @@ export const Contact = () => {
                 className="bg-accent text-accent-foreground hover:bg-accent/90 text-lg px-8 py-6 h-auto font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
                 onClick={() => window.open('https://calendar.app.google/sp9qAT94MGxqTP8S6', '_blank')}
               >
-                Schedule a Consultation
+                {t('contact.consultation.button')}
               </Button>
             </CardContent>
           </Card>

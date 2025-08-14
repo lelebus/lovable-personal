@@ -1,0 +1,192 @@
+{
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "experience": "Experience",
+    "meetYourGuide": "Meet Your Guide",
+    "contact": "Contact",
+    "bookACall": "Book a Call"
+  },
+  "hero": {
+    "title1": "Architecting",
+    "title2": "Digital Solutions",
+    "viewServices": "View Services",
+    "viewProjects": "View Projects",
+    "description1": "I'm <span class=\"font-semibold text-foreground\">Gabriele</span> — a multilingual tech consultant & software architect.",
+    "description2": "I help businesses <span class=\"font-semibold text-accent\">design, build, and launch</span> scalable digital products.",
+    "stats": {
+      "experience": "Years Experience",
+      "projects": "Projects Delivered",
+      "technologies": "Dev & DevOps Technologies"
+    },
+    "floatingCard": {
+      "title": "On call for bold projects",
+      "subtitle": "Let's build something amazing"
+    }
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "I partner with visionary leaders to architect, build, and scale digital products that drive growth and deliver lasting impact.",
+    "technicalArchitecture": {
+      "title": "Technical Architecture & Product Strategy",
+      "subtitle": "Build a Future-Proof Foundation",
+      "description": "I design scalable, maintainable software architectures tailored to your business goals — covering system design, APIs, database architecture, and scalability planning.",
+      "benefit": "Ensure your product is built on a robust, adaptable platform designed for growth and innovation.",
+      "features": ["System Design", "API Architecture", "Database Design", "Scalability Planning"]
+    },
+    "fullStackDevelopment": {
+      "title": "Full-Stack Software Development & Delivery",
+      "subtitle": "Turn Ideas Into Production-Ready Software",
+      "description": "From frontend to backend, I deliver clean, maintainable code using modern frameworks like Vue.js, Nuxt.js, Golang, and Node.js — backed by rigorous testing strategies.",
+      "benefit": "Accelerate your product development with reliable, scalable solutions crafted for performance and longevity.",
+      "features": ["Full-stack Solutions", "Modern Frameworks", "Clean Code", "Testing Strategy"]
+    },
+    "devOps": {
+      "title": "DevOps, Automation & Cloud Infrastructure",
+      "subtitle": "Streamline Deployment & Operations",
+      "description": "I implement automated CI/CD pipelines, scalable cloud infrastructure (AWS), containerization (Docker), and monitoring systems — so your product stays resilient and deployment-ready at all times.",
+      "benefit": "Reduce operational overhead, mitigate risks, and ensure seamless delivery across environments.",
+      "features": ["CI/CD Pipelines", "AWS Services", "Docker", "Monitoring"]
+    },
+    "leadership": {
+      "title": "Leadership & Team Enablement",
+      "subtitle": "Empower Your Tech Team to Deliver Excellence",
+      "description": "I lead and mentor development teams, establish agile workflows, and manage projects with precision — fostering productivity and alignment to business objectives.",
+      "benefit": "Build high-performing teams that consistently meet deadlines and quality standards.",
+      "features": ["Team Leadership", "Agile Workflows", "Technical Mentoring", "Project Management"]
+    },
+    "consulting": {
+      "title": "Business & Process Consulting",
+      "subtitle": "Align Technology with Strategic Growth",
+      "description": "I analyze and optimize your business processes, enhance user experience, and define technology strategies — enabling operational efficiency and competitive advantage.",
+      "benefit": "Transform your technology from a cost center into a driver of growth and customer satisfaction.",
+      "features": ["Process Optimization", "UX Enhancement", "Technology Strategy", "Growth Planning"]
+    },
+    "cta": {
+      "title": "Ready to Elevate Your Digital Product?",
+      "subtitle": "Let's Build Something Amazing Together",
+      "description": "Ready to transform your vision into a scalable, high-performing digital solution? Let's discuss how I can help you architect, build, and launch your next big thing.",
+      "consultation": "Schedule a free consultation to explore your project requirements and discover the perfect solution for your business.",
+      "button": "Schedule a Call"
+    },
+    "keyCapabilities": "Key Capabilities"
+  },
+  "projects": {
+    "title": "Featured Projects & Ventures",
+    "subtitle": "A selection of innovative platforms and startups I've founded and built, demonstrating expertise in entrepreneurship, technical leadership, and digital product development.",
+    "viewProject": "Visit",
+    "technologies": "Technologies Used",
+    "vinoteqa": {
+      "title": "Vinoteqa",
+      "role": "Founder & Lead Developer",
+      "subtitle": "Revolutionizing Wine Management for Restaurants",
+      "description": "Vinoteqa is a groundbreaking SaaS platform that redefines wine cellar and list management for restaurants and wine bars. By automating sales, purchases, and reporting with precision, it empowers restaurateurs to focus on delivering unparalleled guest experiences.",
+      "highlights": [
+        "Spearheaded the product from concept to launch",
+        "Automated wine sales accounting for up to 25% of restaurant revenue",
+        "Delivered a scalable, intuitive platform embraced by industry professionals"
+      ],
+      "status": "Live Platform",
+      "year": "2023-Present",
+      "platformType": "Wine Management SaaS"
+    },
+    "collezionissimo": {
+      "title": "Collezionissimo",
+      "role": "Co-Founder & CTO",
+      "subtitle": "Bridging Collectors with Exclusive Private Collections",
+      "description": "Collezionissimo offers an innovative omnichannel commerce platform connecting collectors to rare antiques, coins, military memorabilia, watches, and more. Designed to handle vast, diverse inventories, it creates seamless discovery and purchasing experiences.",
+      "highlights": [
+        "Architected a robust, scalable platform infrastructure",
+        "Integrated omnichannel commerce capabilities to enhance market reach",
+        "Delivered a user-centric interface enabling effortless exploration of private collections"
+      ],
+      "status": "Live Platform",
+      "year": "2020-Present",
+      "platformType": "Collection Platform"
+    },
+    "codeworks": {
+      "title": "Other Projects at CodeWorks",
+      "role": "Tech Lead",
+      "year": "2020-2022",
+      "description1": "During my tenure as Tech Lead at CodeWorks, I led the development to deliver every project on time and budget, by implementing rigorous development standards and automated deployment processes. This approach maximized efficiency, enabling the team to focus on crafting high-quality software solutions.",
+      "description2": "I contributed to the development of the projects for",
+      "keyAchievements": "Key Achievements"
+    }
+  },
+  "about": {
+    "title": "Your Partner in Scaling Bold Ideas",
+    "subtitle": "Great businesses don't fail because of bad ideas — they fail because the team, process, and execution can't keep up with the vision. I make sure that never happens to you.",
+    "description": "You're here because you're building something big. But right now, your tech operations might feel unpredictable — missed deadlines, unclear priorities, a team that's working hard but not always in the right direction.",
+    "expertise": "Areas of Expertise",
+    "experience": "Years Experience",
+    "projects": "Projects Delivered",
+    "clients": "Happy Clients",
+    "story": {
+      "title": "I've been there.",
+      "paragraph1": "When I started coding at 14, I was building robots — fascinated by how ideas became reality. Years later, I learned the harder truth: in business, even the best tech fails without the right people, structure, and process.",
+      "paragraph2": "Since 18, I've been working with startups and industry leaders and learned to bridge that gap, turning messy operations into systems that deliver — on time, every time."
+    },
+    "languages": {
+      "title": "Languages",
+      "italian": "Italian",
+      "german": "German",
+      "english": "English",
+      "spanish": "Spanish",
+      "nativeBilingual": "Native - Bilingual",
+      "fluent": "Fluent"
+    },
+    "philosophy": {
+      "paragraph1": "I only work with projects I truly believe in, where my expertise can make a measurable impact. If that's you, we start with a simple call — to dissect your idea, assess your team, and map a clear path to scalable delivery.",
+      "transformation": {
+        "title": "The transformation?",
+        "description": "From firefighting and uncertainty to clarity, predictability, and growth — all without losing speed or burning out your people."
+      },
+      "hero": {
+        "title": "I'm not the hero here.",
+        "subtitle": "You are. I'm just the one making sure you win."
+      }
+    }
+  },
+  "contact": {
+    "title": "Your Vision. My Expertise. Let's Build What's Next.",
+    "subtitle": "Big ideas deserve flawless execution. Whether you're launching a startup or scaling an enterprise platform, I help you cut through the technical noise, streamline execution, and create a product built for growth.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "sendMessage": "Send Message",
+    "or": "or",
+    "bookCall": "Book Your Consultation",
+    "getInTouch": "Let's talk — and start turning your vision into reality.",
+    "location": "Location",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "consultation": {
+      "title": "Book Your Consultation",
+      "description": "In 30 minutes, we'll review your idea, assess your team's scalability, and map out the smartest path forward. I only take on projects I believe in — so if we work together, you know I'm invested in your success.",
+      "button": "Schedule a Consultation"
+    },
+    "contactInfo": {
+      "email": "hello@decandido.dev",
+      "linkedin": "LinkedIn",
+      "phone": "+39 335 781 2244",
+      "location": "Bolzano, South Tyrol, Italy"
+    }
+  },
+  "footer": {
+    "copyright": "© {{year}} Gabriele De Candido. All rights reserved.",
+    "madeWith": "Made with ❤️ and ☕",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success!",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "learnMore": "View Services",
+    "getStarted": "View Projects"
+  }
+}

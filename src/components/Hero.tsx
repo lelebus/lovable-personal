@@ -1,7 +1,10 @@
 import { Button } from "@/components/ui/button";
+import { useTranslation } from "react-i18next";
 import heroImage from "@/assets/hero.jpg";
 
 export const Hero = () => {
+  const { t } = useTranslation();
+  
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     element?.scrollIntoView({ behavior: 'smooth' });
@@ -39,19 +42,21 @@ export const Hero = () => {
             <div className="space-y-8">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif font-bold leading-[0.85] sophisticated-text-shadow">
                 <span className="block tech-gradient bg-clip-text text-transparent bg-300% animate-gradient-shift whitespace-nowrap leading-tight">
-                  Architecting
+                  {t('hero.title1')}
                 </span>
                 <span className="block text-foreground">
-                  Digital Solutions
+                  {t('hero.title2')}
                 </span>
               </h1>
               <div className="relative py-8 sophisticated-card rounded-3xl">
-                <p className="text-xl md:text-2xl lg:text-3xl text-muted-foreground leading-relaxed font-light">
-                  I'm <span className="font-semibold text-foreground">Gabriele</span> — a multilingual tech consultant & software architect.
-                </p>
-                <p className="mt-3 text-xl md:text-2xl lg:text-3xl text-muted-foreground leading-relaxed font-light">
-                  I help businesses <span className="font-semibold text-accent">design, build, and launch</span> scalable digital products.
-                </p>
+                <p 
+                  className="text-xl md:text-2xl lg:text-3xl text-muted-foreground leading-relaxed font-light"
+                  dangerouslySetInnerHTML={{ __html: t('hero.description1') }}
+                />
+                <p 
+                  className="mt-3 text-xl md:text-2xl lg:text-3xl text-muted-foreground leading-relaxed font-light"
+                  dangerouslySetInnerHTML={{ __html: t('hero.description2') }}
+                />
                 <div className="absolute -inset-1 tech-gradient rounded-3xl blur-xl opacity-20 -z-10" />
               </div>
             </div>
@@ -62,7 +67,7 @@ export const Hero = () => {
                 className="sophisticated-button font-semibold px-10 py-5 text-lg rounded-full shadow-sophisticated-premium hover:shadow-tech-glow transition-all duration-500"
                 onClick={() => scrollToSection('services')}
               >
-                <span className="relative z-10">View Services</span>
+                <span className="relative z-10">{t('hero.viewServices')}</span>
               </Button>
               <Button
                 variant="outline"
@@ -70,7 +75,7 @@ export const Hero = () => {
                 onClick={() => scrollToSection('projects')}
                 className="glass-card border-border dark:hover:bg-glass-bg-dark/90 hover:border-accent text-foreground font-semibold px-10 py-5 text-lg rounded-full backdrop-blur-premium transition-all duration-500 hover:scale-105 hover:shadow-sophisticated-elegant"
               >
-                View Projects
+                {t('hero.viewProjects')}
               </Button>
             </div>
 
@@ -78,15 +83,15 @@ export const Hero = () => {
             <div className="grid grid-cols-3 gap-6">
               <div className="sophisticated-card p-8 rounded-3xl group hover:scale-105 transition-all duration-500 hover:shadow-sophisticated-premium">
                 <div className="text-4xl md:text-5xl font-bold text-foreground mb-3 group-hover:text-accent transition-colors duration-500 sophisticated-text-shadow">7+</div>
-                <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">Years Experience</div>
+                <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">{t('hero.stats.experience')}</div>
               </div>
               <div className="sophisticated-card p-8 rounded-3xl group hover:scale-105 transition-all duration-500 hover:shadow-sophisticated-premium">
                 <div className="text-4xl md:text-5xl font-bold text-foreground mb-3 group-hover:text-accent transition-colors duration-500 sophisticated-text-shadow">50+</div>
-                <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">Projects Delivered</div>
+                <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">{t('hero.stats.projects')}</div>
               </div>
               <div className="sophisticated-card p-8 rounded-3xl group hover:scale-105 transition-all duration-500 hover:shadow-sophisticated-premium">
                 <div className="text-4xl md:text-5xl font-bold text-foreground mb-3 group-hover:text-accent transition-colors duration-500 sophisticated-text-shadow">15+</div>
-                <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">Dev & DevOps Technologies</div>
+                <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">{t('hero.stats.technologies')}</div>
               </div>
             </div>
           </div>
@@ -120,8 +125,8 @@ export const Hero = () => {
                   <div className="absolute -inset-2 w-9 h-9 tech-gradient rounded-full blur-lg opacity-20" />
                 </div>
                 <div>
-                  <div className="font-bold text-white text-xl mb-2 sophisticated-text-shadow">On call for bold projects</div>
-                  <div className="text-white/70 font-medium">Let's build something amazing</div>
+                  <div className="font-bold text-white text-xl mb-2 sophisticated-text-shadow">{t('hero.floatingCard.title')}</div>
+                  <div className="text-white/70 font-medium">{t('hero.floatingCard.subtitle')}</div>
                 </div>
               </div>
             </div>
