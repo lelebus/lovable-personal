@@ -53,6 +53,9 @@ export const Footer = () => {
           <p className="text-primary-foreground/70 text-sm">
             {t('footer.copyright', { year: currentYear })}
           </p>
+          <p className="text-primary-foreground/50 text-xs mt-2">
+            {t('footer.madeWith')}
+          </p>
         </div>
       </div>
     </footer>

@@ -1,82 +1,192 @@
 {
   "navigation": {
     "home": "Startseite",
-    "services": "Dienstleistungen",
+    "services": "Leistungen",
     "experience": "Erfahrung",
-    "meetYourGuide": "Lernen Sie Ihren Guide kennen",
+    "meetYourGuide": "Über mich",
     "contact": "Kontakt",
-    "bookACall": "Anruf buchen"
+    "bookACall": "Ruf mich an"
   },
   "hero": {
-    "title": "Ihr Partner für digitalen Erfolg",
-    "subtitle": "Ich helfe ehrgeizigen Unternehmern und Unternehmen dabei, digitale Produkte zu entwickeln, die echte Ergebnisse liefern. Von der Idee bis zum Launch bin ich Ihr strategischer Partner in der digitalen Welt.",
-    "cta": "Lassen Sie uns etwas Großartiges aufbauen",
-    "scrollDown": "Nach unten scrollen"
-  },
-  "services": {
-    "title": "Was ich mache",
-    "subtitle": "Umfassende digitale Lösungen, die auf Ihre Geschäftsanforderungen zugeschnitten sind",
-    "webDevelopment": {
-      "title": "Webentwicklung",
-      "description": "Maßgeschneiderte Websites und Webanwendungen, die mit modernen Technologien und bewährten Praktiken entwickelt werden."
+    "title1": "Architektur",
+    "title2": "digitaler Lösungen",
+    "viewServices": "Leistungen ansehen",
+    "viewProjects": "Projekte ansehen",
+    "description1": "Ich bin <span class=\"font-semibold text-foreground\">Gabriele</span> — mehrsprachiger Technologieberater und Softwarearchitekt.",
+    "description2": "Ich helfe dir, <span class=\"font-semibold text-accent\">skalierbare digitale Produkte zu entwerfen, zu entwickeln und zu starten</span>.",
+    "stats": {
+      "experience": "Jahre Erfahrung",
+      "projects": "Abgeschlossene Projekte",
+      "technologies": "Dev- & DevOps-Technologien"
     },
-    "mobileApps": {
-      "title": "Mobile Apps",
-      "description": "Native und plattformübergreifende mobile Anwendungen für iOS und Android."
-    },
-    "consulting": {
-      "title": "Digitale Beratung",
-      "description": "Strategische Beratung, um Ihnen bei fundierten Entscheidungen über Ihre digitale Präsenz zu helfen."
-    },
-    "uiux": {
-      "title": "UI/UX-Design",
-      "description": "Schöne, intuitive Benutzeroberflächen, die die Benutzererfahrung verbessern und das Engagement steigern."
+    "floatingCard": {
+      "title": "Bereit für mutige Projekte",
+      "subtitle": "Lass uns etwas Außergewöhnliches schaffen"
     }
   },
+  "services": {
+    "title": "Leistungen",
+    "subtitle": "Ich arbeite mit visionären Leadern zusammen, um digitale Produkte zu entwerfen, zu entwickeln und zu skalieren, die Wachstum fördern und nachhaltige Wirkung erzielen.",
+    "technicalArchitecture": {
+      "title": "Technische Architektur & Produktstrategie",
+      "subtitle": "Baue ein zukunftssicheres Fundament",
+      "description": "Ich entwerfe skalierbare, wartbare Softwarearchitekturen, die genau auf deine Ziele abgestimmt sind — inklusive Systemdesign, API-Architektur, Datenbankdesign und Skalierungsplanung.",
+      "benefit": "Stelle sicher, dass dein Produkt auf einer robusten, flexiblen Plattform aufbaut, die Wachstum und Innovation ermöglicht.",
+      "features": ["Systemdesign", "API-Architektur", "Datenbankdesign", "Skalierungsplanung"]
+    },
+    "fullStackDevelopment": {
+      "title": "Full-Stack-Softwareentwicklung & Bereitstellung",
+      "subtitle": "Verwandle Ideen in einsatzbereite Software",
+      "description": "Vom Frontend bis zum Backend liefere ich sauberen, wartbaren Code mit modernen Frameworks wie Vue.js, Nuxt.js, Golang und Node.js — unterstützt durch rigorose Teststrategien.",
+      "benefit": "Beschleunige deine Produktentwicklung mit zuverlässigen, skalierbaren Lösungen, die auf Performance und Langlebigkeit ausgelegt sind.",
+      "features": ["Full-Stack-Lösungen", "Moderne Frameworks", "Sauberer Code", "Teststrategie"]
+    },
+    "devOps": {
+      "title": "DevOps, Automatisierung & Cloud-Infrastruktur",
+      "subtitle": "Optimiere Deployment & Betrieb",
+      "description": "Ich implementiere automatisierte CI/CD-Pipelines, skalierbare Cloud-Infrastrukturen (AWS), Containerisierung (Docker) und Monitoring-Systeme — damit dein Produkt immer widerstandsfähig und deploybereit bleibt.",
+      "benefit": "Reduziere den operativen Aufwand, minimiere Risiken und sorge für reibungslose Bereitstellung in allen Umgebungen.",
+      "features": ["CI/CD-Pipelines", "AWS-Services", "Docker", "Monitoring"]
+    },
+    "leadership": {
+      "title": "Leadership & Team-Enablement",
+      "subtitle": "Stärke dein Tech-Team, Spitzenleistungen zu liefern",
+      "description": "Ich führe und coache Entwicklungsteams, implementiere agile Workflows und manage Projekte präzise — für maximale Produktivität und volle Ausrichtung auf deine Ziele.",
+      "benefit": "Baue ein leistungsstarkes Team auf, das Deadlines und Qualitätsstandards zuverlässig erfüllt.",
+      "features": ["Teamführung", "Agile Workflows", "Technisches Mentoring", "Projektmanagement"]
+    },
+    "consulting": {
+      "title": "Business- & Prozessberatung",
+      "subtitle": "Technologie an strategisches Wachstum anpassen",
+      "description": "Ich analysiere und optimiere deine Geschäftsprozesse, verbessere UX und entwickle Technologie-Strategien — für Effizienz und Wettbewerbsvorteile.",
+      "benefit": "Verwandle Technologie von einem Kostenfaktor in einen Treiber für Wachstum und Kundenzufriedenheit.",
+      "features": ["Prozessoptimierung", "UX-Verbesserung", "Technologiestrategie", "Wachstumsplanung"]
+    },
+    "cta": {
+      "title": "Bereit, dein digitales Produkt aufs nächste Level zu bringen?",
+      "subtitle": "Lass uns gemeinsam etwas Außergewöhnliches schaffen",
+      "description": "Willst du deine Vision in eine skalierbare, leistungsstarke digitale Lösung verwandeln? Lass uns besprechen, wie ich dir helfen kann, dein nächstes großes Projekt zu entwerfen, zu entwickeln und zu starten.",
+      "consultation": "Vereinbare ein kostenloses Beratungsgespräch, um dein Projekt zu besprechen und die perfekte Lösung zu finden.",
+      "button": "Termin vereinbaren"
+    },
+    "keyCapabilities": "Kernkompetenzen"
+  },
   "projects": {
-    "title": "Ausgewählte Projekte und Unternehmen",
-    "subtitle": "Eine Auswahl innovativer Plattformen und Startups, die ich gegründet und aufgebaut habe, und die meine Expertise in Unternehmertum, technischer Führung und digitaler Produktentwicklung demonstrieren.",
+    "title": "Ausgewählte Projekte & Ventures",
+    "subtitle": "Eine Auswahl innovativer Plattformen und Startups, die ich gegründet und aufgebaut habe — als Beleg für Unternehmertum, technische Führung und digitale Produktentwicklung.",
     "viewProject": "Besuchen",
-    "technologies": "Verwendete Technologien"
+    "technologies": "Verwendete Technologien",
+    "vinoteqa": {
+      "title": "Vinoteqa",
+      "role": "Gründer & Lead Developer",
+      "subtitle": "Weinmanagement für die Gastronomie neu definiert",
+      "description": "Vinoteqa ist eine bahnbrechende SaaS-Plattform, die Weinkeller- und Weinkartenmanagement für Restaurants und Weinbars neu denkt. Durch präzise Automatisierung von Verkauf, Einkauf und Reporting können Gastronomen sich auf einzigartige Gästeerlebnisse konzentrieren.",
+      "highlights": [
+        "Produkt von der Idee bis zum Launch geführt",
+        "Automatisierte Weinverkaufsbuchhaltung für bis zu 25 % des Umsatzes",
+        "Skalierbare, intuitive Plattform, die von Branchenprofis angenommen wurde"
+      ],
+      "status": "Live-Plattform",
+      "year": "2023–Heute",
+      "platformType": "SaaS für Weinmanagement"
+    },
+    "collezionissimo": {
+      "title": "Collezionissimo",
+      "role": "Mitgründer & CTO",
+      "subtitle": "Sammler mit exklusiven Privatsammlungen verbinden",
+      "description": "Collezionissimo ist eine innovative Omnichannel-Commerce-Plattform, die Sammler mit seltenen Antiquitäten, Münzen, militärischen Memorabilien, Uhren und mehr verbindet. Sie ermöglicht ein nahtloses Entdecken und Kaufen großer und vielfältiger Bestände.",
+      "highlights": [
+        "Robuste, skalierbare Plattformarchitektur entwickelt",
+        "Omnichannel-Commerce-Funktionen integriert, um Reichweite zu erhöhen",
+        "Benutzerzentrierte Oberfläche für müheloses Erkunden privater Sammlungen"
+      ],
+      "status": "Live-Plattform",
+      "year": "2020–Heute",
+      "platformType": "Sammlerplattform"
+    },
+    "codeworks": {
+      "title": "Weitere Projekte bei CodeWorks",
+      "role": "Tech Lead",
+      "year": "2020–2022",
+      "description1": "Als Tech Lead bei CodeWorks habe ich die Entwicklung geleitet, damit jedes Projekt termingerecht und im Budget geliefert wird. Mit strengen Entwicklungsstandards und automatisierten Deployments konnte das Team hochwertige Software effizient erstellen.",
+      "description2": "Ich habe an Projekten mitgewirkt für",
+      "keyAchievements": "Wichtigste Erfolge"
+    }
   },
   "about": {
-    "title": "Ihr Partner für die Skalierung mutiger Ideen",
-    "subtitle": "Große Unternehmen scheitern nicht an schlechten Ideen — sie scheitern, weil das Team, der Prozess und die Ausführung nicht mit der Vision Schritt halten können. Ich stelle sicher, dass Ihnen das nie passiert.",
-    "description": "Sie sind hier, weil Sie etwas Großes aufbauen. Aber im Moment fühlen sich Ihre Tech-Operationen möglicherweise unvorhersehbar an — verpasste Deadlines, unklare Prioritäten, ein Team, das hart arbeitet, aber nicht immer in die richtige Richtung.",
-    "expertise": "Fachbereiche",
+    "title": "Dein Partner für das Skalieren mutiger Ideen",
+    "subtitle": "Große Unternehmen scheitern nicht an schlechten Ideen — sie scheitern, weil Team, Prozesse und Umsetzung nicht mit der Vision Schritt halten. Ich sorge dafür, dass dir das nicht passiert.",
+    "description": "Du bist hier, weil du etwas Großes aufbaust. Vielleicht wirken deine Tech-Abläufe gerade unberechenbar — Deadlines werden verpasst, Prioritäten sind unklar, das Team arbeitet hart, aber nicht immer in die richtige Richtung.",
+    "expertise": "Fachgebiete",
     "experience": "Jahre Erfahrung",
     "projects": "Abgeschlossene Projekte",
-    "clients": "Zufriedene Kunden"
+    "clients": "Zufriedene Kunden",
+    "story": {
+      "title": "Ich kenne das aus eigener Erfahrung.",
+      "paragraph1": "Als ich mit 14 Jahren anfing zu programmieren, baute ich Roboter — fasziniert davon, wie Ideen Realität werden. Jahre später lernte ich die harte Wahrheit: Im Business scheitert selbst die beste Technologie ohne die richtigen Menschen, Strukturen und Prozesse.",
+      "paragraph2": "Seit meinem 18. Lebensjahr arbeite ich mit Startups und Branchenführern und habe gelernt, diese Lücke zu schließen — chaotische Abläufe in Systeme zu verwandeln, die liefern: pünktlich, jedes Mal."
+    },
+    "languages": {
+      "title": "Sprachen",
+      "italian": "Italienisch",
+      "german": "Deutsch",
+      "english": "Englisch",
+      "spanish": "Spanisch",
+      "nativeBilingual": "Muttersprache – Zweisprachig",
+      "fluent": "Fließend"
+    },
+    "philosophy": {
+      "paragraph1": "Ich arbeite nur an Projekten, an die ich wirklich glaube und bei denen meine Expertise messbaren Einfluss hat. Wenn das bei dir der Fall ist, starten wir mit einem kurzen Gespräch — um deine Idee zu analysieren, dein Team zu bewerten und einen klaren Weg zur skalierbaren Umsetzung zu planen.",
+      "transformation": {
+        "title": "Die Transformation?",
+        "description": "Von Feuerwehreinsätzen und Unsicherheit zu Klarheit, Planbarkeit und Wachstum — ohne Geschwindigkeit zu verlieren oder dein Team auszubrennen."
+      },
+      "hero": {
+        "title": "Der Held bin nicht ich.",
+        "subtitle": "Das bist du. Ich bin nur dafür da, dass du gewinnst."
+      }
+    }
   },
   "contact": {
-    "title": "Ihre Vision. Meine Expertise. Lassen Sie uns die Zukunft aufbauen.",
-    "subtitle": "Große Ideen verdienen eine makellose Ausführung. Ob Sie ein Startup lancieren oder eine Unternehmensplattform skalieren, ich helfe Ihnen dabei, den technischen Lärm zu überwinden, die Ausführung zu optimieren und ein Produkt zu schaffen, das für Wachstum konzipiert ist.",
+    "title": "Deine Vision. Meine Expertise.",
+    "subtitle": "Große Ideen verdienen perfekte Umsetzung. Ob du ein Startup launchst oder eine Enterprise-Plattform skalierst — ich helfe dir, den technischen Lärm zu beseitigen, die Umsetzung zu optimieren und ein wachstumsfähiges Produkt zu bauen.",
     "name": "Name",
     "email": "E-Mail",
     "message": "Nachricht",
     "sendMessage": "Nachricht senden",
     "or": "oder",
-    "bookCall": "Ihre Beratung buchen",
-    "getInTouch": "Lassen Sie uns sprechen — und beginnen Sie, Ihre Vision in die Realität umzusetzen.",
+    "bookCall": "Beratungsgespräch buchen",
+    "getInTouch": "Lass uns reden — und deine Vision Wirklichkeit werden lassen.",
     "location": "Standort",
     "emailLabel": "E-Mail",
-    "phoneLabel": "Telefon"
+    "phoneLabel": "Telefon",
+    "consultation": {
+      "title": "Beratungsgespräch buchen",
+      "description": "In 30 Minuten besprechen wir deine Idee, bewerten die Skalierbarkeit deines Teams und planen den klügsten Weg nach vorne. Ich nehme nur Projekte an, an die ich glaube — wenn wir zusammenarbeiten, weißt du, dass ich in deinen Erfolg investiert bin.",
+      "button": "Beratung vereinbaren"
+    },
+    "contactInfo": {
+      "email": "hello@decandido.dev",
+      "linkedin": "LinkedIn",
+      "phone": "+39 335 781 2244",
+      "location": "Südtirol, Italien"
+    }
   },
   "footer": {
     "copyright": "© {{year}} Gabriele De Candido. Alle Rechte vorbehalten.",
     "madeWith": "Gemacht mit ❤️ und ☕",
-    "privacy": "Datenschutzrichtlinie",
+    "privacy": "Datenschutz",
     "terms": "Nutzungsbedingungen"
   },
   "common": {
-    "loading": "Lädt...",
+    "loading": "Wird geladen...",
     "error": "Ein Fehler ist aufgetreten",
     "success": "Erfolg!",
     "close": "Schließen",
     "save": "Speichern",
     "cancel": "Abbrechen",
     "submit": "Absenden",
-    "learnMore": "Dienstleistungen anzeigen",
-    "getStarted": "Projekte anzeigen"
+    "learnMore": "Leistungen ansehen",
+    "getStarted": "Projekte ansehen"
   }
 }

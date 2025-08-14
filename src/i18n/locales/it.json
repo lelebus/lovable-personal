@@ -2,129 +2,129 @@
   "navigation": {
     "home": "Home",
     "services": "Servizi",
-    "experience": "Esperienze",
-    "meetYourGuide": "Conosci la Guida",
+    "experience": "Esperienza",
+    "meetYourGuide": "Su di me",
     "contact": "Contatti",
-    "bookACall": "Prenota una Chiamata"
+    "bookACall": "Prenota una chiamata"
   },
   "hero": {
     "title1": "Architettura",
-    "title2": "Soluzioni Digitali",
-    "viewServices": "Visualizza Servizi",
-    "viewProjects": "Visualizza Progetti",
-    "description1": "Sono <span class=\"font-semibold text-foreground\">Gabriele</span> — un consulente tecnologico multilingue e architetto software.",
-    "description2": "Aiuto le aziende a <span class=\"font-semibold text-accent\">progettare, costruire e lanciare</span> prodotti digitali scalabili.",
+    "title2": "di Soluzioni Digitali",
+    "viewServices": "Scopri i servizi",
+    "viewProjects": "Scopri i progetti",
+    "description1": "Sono <span class=\"font-semibold text-foreground\">Gabriele</span> — consulente tecnologico multilingue e architetto software.",
+    "description2": "Aiuto le aziende a <span class=\"font-semibold text-accent\">progettare, sviluppare e lanciare</span> prodotti digitali scalabili.",
     "stats": {
-      "experience": "Anni di Esperienza",
-      "projects": "Progetti Consegnati",
+      "experience": "Anni di esperienza",
+      "projects": "Progetti consegnati",
       "technologies": "Tecnologie Dev & DevOps"
     },
     "floatingCard": {
-      "title": "Disponibile per progetti audaci",
-      "subtitle": "Costruiamo qualcosa di straordinario"
+      "title": "A disposizione per progetti ambiziosi",
+      "subtitle": "Creiamo qualcosa di straordinario"
     }
   },
   "services": {
     "title": "Servizi",
-    "subtitle": "Collaboro con leader visionari per architettare, costruire e scalare prodotti digitali che guidano la crescita e generano un impatto duraturo.",
+    "subtitle": "Collaboro con leader visionari per progettare, sviluppare e scalare prodotti digitali che generano crescita e impatto duraturo.",
     "technicalArchitecture": {
-      "title": "Architettura Tecnica e Strategia di Prodotto",
-      "subtitle": "Costruisci una Base a Prova di Futuro",
-      "description": "Progetto architetture software scalabili e manutenibili personalizzate per i tuoi obiettivi aziendali — coprendo progettazione di sistemi, API, architettura di database e pianificazione della scalabilità.",
-      "benefit": "Assicura che il tuo prodotto sia costruito su una piattaforma robusta e adattabile progettata per la crescita e l'innovazione.",
-      "features": ["Progettazione di Sistemi", "Architettura API", "Progettazione Database", "Pianificazione Scalabilità"]
+      "title": "Architettura Tecnica & Strategia di Prodotto",
+      "subtitle": "Costruisci una base solida e a prova di futuro",
+      "description": "Progetto architetture software scalabili e manutenibili, su misura per i tuoi obiettivi di business — includendo design dei sistemi, API, architettura del database e pianificazione della scalabilità.",
+      "benefit": "Assicura che il tuo prodotto sia costruito su una piattaforma robusta e adattabile, pensata per la crescita e l’innovazione.",
+      "features": ["Progettazione Sistemi", "Architettura API", "Progettazione Database", "Pianificazione Scalabilità"]
     },
     "fullStackDevelopment": {
-      "title": "Sviluppo Software Full-Stack e Consegna",
-      "subtitle": "Trasforma le Idee in Software Pronto per la Produzione",
-      "description": "Dal frontend al backend, consegno codice pulito e manutenibile utilizzando framework moderni come Vue.js, Nuxt.js, Golang e Node.js — supportato da strategie di test rigorose.",
-      "benefit": "Accelera lo sviluppo del tuo prodotto con soluzioni affidabili e scalabili create per prestazioni e longevità.",
-      "features": ["Soluzioni Full-stack", "Framework Moderni", "Codice Pulito", "Strategia di Test"]
+      "title": "Sviluppo Software Full-Stack & Consegna",
+      "subtitle": "Trasforma idee in software pronto per la produzione",
+      "description": "Dal frontend al backend, sviluppo codice pulito e manutenibile utilizzando framework moderni come Vue.js, Nuxt.js, Golang e Node.js — supportato da strategie di testing rigorose.",
+      "benefit": "Accelera lo sviluppo del tuo prodotto con soluzioni affidabili, scalabili e progettate per prestazioni e durata.",
+      "features": ["Soluzioni Full-Stack", "Framework Moderni", "Codice Pulito", "Strategia di Testing"]
     },
     "devOps": {
-      "title": "DevOps, Automazione e Infrastruttura Cloud",
-      "subtitle": "Semplifica Deployment e Operazioni",
-      "description": "Implemento pipeline CI/CD automatizzate, infrastruttura cloud scalabile (AWS), containerizzazione (Docker) e sistemi di monitoraggio — così il tuo prodotto rimane resiliente e pronto per il deployment in ogni momento.",
-      "benefit": "Riduci il sovraccarico operativo, mitiga i rischi e assicura una consegna senza interruzioni in tutti gli ambienti.",
+      "title": "DevOps, Automazione & Infrastruttura Cloud",
+      "subtitle": "Ottimizza il deploy e le operazioni",
+      "description": "Implemento pipeline CI/CD automatizzate, infrastrutture cloud scalabili (AWS), containerizzazione (Docker) e sistemi di monitoraggio — per mantenere il tuo prodotto sempre resiliente e pronto al deploy.",
+      "benefit": "Riduci i costi operativi, minimizza i rischi e garantisci consegne senza intoppi in ogni ambiente.",
       "features": ["Pipeline CI/CD", "Servizi AWS", "Docker", "Monitoraggio"]
     },
     "leadership": {
-      "title": "Leadership e Abilitazione del Team",
-      "subtitle": "Potenzia il Tuo Team Tecnologico per Consegnare Eccellenza",
-      "description": "Guido e mentoro team di sviluppo, stabilisco flussi di lavoro agili e gestisco progetti con precisione — promuovendo produttività e allineamento agli obiettivi aziendali.",
-      "benefit": "Costruisci team ad alte prestazioni che rispettano costantemente scadenze e standard di qualità.",
-      "features": ["Leadership di Team", "Flussi di Lavoro Agili", "Mentoring Tecnico", "Gestione Progetti"]
+      "title": "Leadership & Sviluppo del Team",
+      "subtitle": "Potenzia il tuo team tecnico per raggiungere l’eccellenza",
+      "description": "Guido e mentorizzo team di sviluppo, definisco workflow agili e gestisco i progetti con precisione — favorendo produttività e allineamento agli obiettivi aziendali.",
+      "benefit": "Crea team ad alte prestazioni che rispettano sempre scadenze e standard qualitativi.",
+      "features": ["Leadership di Team", "Workflow Agili", "Mentoring Tecnico", "Project Management"]
     },
     "consulting": {
-      "title": "Consulenza Aziendale e sui Processi",
-      "subtitle": "Allinea la Tecnologia con la Crescita Strategica",
-      "description": "Analizzo e ottimizzo i tuoi processi aziendali, miglioro l'esperienza utente e definisco strategie tecnologiche — abilitando efficienza operativa e vantaggio competitivo.",
-      "benefit": "Trasforma la tua tecnologia da un centro di costo in un motore di crescita e soddisfazione del cliente.",
-      "features": ["Ottimizzazione Processi", "Miglioramento UX", "Strategia Tecnologica", "Pianificazione Crescita"]
+      "title": "Consulenza Business & Processi",
+      "subtitle": "Allinea la tecnologia alla crescita strategica",
+      "description": "Analizzo e ottimizzo i processi aziendali, miglioro l’esperienza utente e definisco strategie tecnologiche — per garantire efficienza operativa e vantaggio competitivo.",
+      "benefit": "Trasforma la tecnologia da centro di costo a motore di crescita e soddisfazione del cliente.",
+      "features": ["Ottimizzazione Processi", "Miglioramento UX", "Strategia Tecnologica", "Pianificazione della Crescita"]
     },
     "cta": {
-      "title": "Pronto a Elevare il Tuo Prodotto Digitale?",
-      "subtitle": "Costruiamo Qualcosa di Straordinario Insieme",
-      "description": "Pronto a trasformare la tua visione in una soluzione digitale scalabile e ad alte prestazioni? Parliamo di come posso aiutarti ad architettare, costruire e lanciare la tua prossima grande idea.",
-      "consultation": "Programma una consultazione gratuita per esplorare i requisiti del tuo progetto e scoprire la soluzione perfetta per la tua azienda.",
-      "button": "Programma una Chiamata"
+      "title": "Pronto a far crescere il tuo prodotto digitale?",
+      "subtitle": "Creiamo qualcosa di straordinario insieme",
+      "description": "Vuoi trasformare la tua visione in una soluzione digitale scalabile e ad alte prestazioni? Parliamo di come posso aiutarti a progettare, sviluppare e lanciare il tuo prossimo grande progetto.",
+      "consultation": "Prenota una consulenza gratuita per analizzare i requisiti del tuo progetto e trovare la soluzione perfetta per il tuo business.",
+      "button": "Prenota una chiamata"
     },
-    "keyCapabilities": "Capacità Chiave"
+    "keyCapabilities": "Competenze Chiave"
   },
   "projects": {
-    "title": "Progetti e Imprese in Evidenza",
-    "subtitle": "Una selezione di piattaforme innovative e startup che ho fondato e costruito, dimostrando competenza in imprenditoria, leadership tecnica e sviluppo di prodotti digitali.",
+    "title": "Progetti e Iniziative in Evidenza",
+    "subtitle": "Una selezione di piattaforme e startup innovative che ho fondato e sviluppato, dimostrando competenza in imprenditoria, leadership tecnica e sviluppo di prodotti digitali.",
     "viewProject": "Visita",
     "technologies": "Tecnologie Utilizzate",
     "vinoteqa": {
       "title": "Vinoteqa",
-      "role": "Fondatore e Lead Developer",
-      "subtitle": "Rivoluzionando la Gestione del Vino per i Ristoranti",
-      "description": "Vinoteqa è una piattaforma SaaS rivoluzionaria che ridefinisce la gestione della cantina e della lista vini per ristoranti e wine bar. Automatizzando vendite, acquisti e reportistica con precisione, permette ai ristoratori di concentrarsi sul fornire esperienze ospiti senza precedenti.",
+      "role": "Founder & Lead Developer",
+      "subtitle": "Rivoluzionare la gestione del vino per la ristorazione",
+      "description": "Vinoteqa è una piattaforma SaaS innovativa che ridefinisce la gestione della cantina e della carta dei vini per ristoranti e wine bar. Automatizzando vendite, acquisti e reportistica con precisione, permette ai ristoratori di concentrarsi sull’offerta di esperienze uniche agli ospiti.",
       "highlights": [
-        "Guidato il prodotto dal concetto al lancio",
-        "Automatizzato la contabilità delle vendite di vino per fino al 25% del fatturato del ristorante",
-        "Consegnato una piattaforma scalabile e intuitiva abbracciata dai professionisti del settore"
+        "Dalla concezione al lancio: guida completa del prodotto",
+        "Automatizzazione della contabilità delle vendite di vino fino al 25% del fatturato del ristorante",
+        "Piattaforma scalabile e intuitiva adottata da professionisti del settore"
       ],
-      "status": "Piattaforma Live",
+      "status": "Piattaforma Attiva",
       "year": "2023-Presente",
-      "platformType": "SaaS Gestione Vini"
+      "platformType": "SaaS Gestione Vino"
     },
     "collezionissimo": {
       "title": "Collezionissimo",
-      "role": "Co-Fondatore e CTO",
-      "subtitle": "Collegando i Collezionisti con Collezioni Private Esclusive",
-      "description": "Collezionissimo offre una piattaforma di commercio omnichannel innovativa che collega i collezionisti a oggetti d'antiquariato rari, monete, memorabilia militari, orologi e altro ancora. Progettata per gestire inventari vasti e diversificati, crea esperienze di scoperta e acquisto senza interruzioni.",
+      "role": "Co-Fondatore & CTO",
+      "subtitle": "Connettere collezionisti a collezioni private esclusive",
+      "description": "Collezionissimo offre una piattaforma di commercio omnicanale che mette in contatto collezionisti con oggetti rari come antiquariato, monete, cimeli militari, orologi e molto altro. Progettata per gestire inventari vasti e diversificati, garantisce esperienze di scoperta e acquisto senza interruzioni.",
       "highlights": [
-        "Architettata un'infrastruttura di piattaforma robusta e scalabile",
-        "Integrate capacità di commercio omnichannel per migliorare la portata di mercato",
-        "Consegnata un'interfaccia centrata sull'utente che consente l'esplorazione senza sforzo di collezioni private"
+        "Architettura solida e scalabile della piattaforma",
+        "Integrazione di capacità di commercio omnicanale per ampliare il mercato",
+        "Interfaccia utente intuitiva per esplorare facilmente collezioni private"
       ],
-      "status": "Piattaforma Live",
+      "status": "Piattaforma Attiva",
       "year": "2020-Presente",
       "platformType": "Piattaforma Collezioni"
     },
     "codeworks": {
-      "title": "Altri Progetti presso CodeWorks",
+      "title": "Altri progetti in CodeWorks",
       "role": "Tech Lead",
       "year": "2020-2022",
-      "description1": "Durante il mio mandato come Tech Lead presso CodeWorks, ho guidato lo sviluppo per consegnare ogni progetto in tempo e budget, implementando standard di sviluppo rigorosi e processi di deployment automatizzati. Questo approccio ha massimizzato l'efficienza, permettendo al team di concentrarsi sulla creazione di soluzioni software di alta qualità.",
-      "description2": "Ho contribuito allo sviluppo dei progetti per",
-      "keyAchievements": "Risultati Chiave"
+      "description1": "Come Tech Lead in CodeWorks, ho guidato lo sviluppo per consegnare ogni progetto nei tempi e nel budget, implementando standard di sviluppo rigorosi e processi di deploy automatizzati. Questo approccio ha massimizzato l’efficienza, consentendo al team di concentrarsi sulla creazione di soluzioni software di alta qualità.",
+      "description2": "Ho contribuito allo sviluppo di progetti per",
+      "keyAchievements": "Risultati Principali"
     }
   },
   "about": {
-    "title": "Il Tuo Partner per Scalare Idee Audaci",
-    "subtitle": "Le grandi aziende non falliscono per cattive idee — falliscono perché il team, il processo e l'esecuzione non riescono a tenere il passo con la visione. Mi assicuro che questo non accada mai a te.",
-    "description": "Sei qui perché stai costruendo qualcosa di grande. Ma in questo momento, le tue operazioni tecnologiche potrebbero sembrare imprevedibili — scadenze mancate, priorità poco chiare, un team che lavora sodo ma non sempre nella direzione giusta.",
+    "title": "Il tuo partner per scalare idee ambiziose",
+    "subtitle": "Le grandi aziende non falliscono per cattive idee — falliscono perché il team, i processi e l’esecuzione non riescono a tenere il passo con la visione. Io faccio in modo che questo non ti accada.",
+    "description": "Sei qui perché stai costruendo qualcosa di grande. Ma forse ora le tue operazioni tecnologiche ti sembrano imprevedibili — scadenze mancate, priorità poco chiare, un team che lavora sodo ma non sempre nella giusta direzione.",
     "expertise": "Aree di Competenza",
-    "experience": "Anni di Esperienza",
-    "projects": "Progetti Consegnati",
-    "clients": "Clienti Soddisfatti",
+    "experience": "Anni di esperienza",
+    "projects": "Progetti consegnati",
+    "clients": "Clienti soddisfatti",
     "story": {
-      "title": "Ci sono passato anch'io.",
-      "paragraph1": "Quando ho iniziato a programmare a 14 anni, costruivo robot — affascinato da come le idee diventassero realtà. Anni dopo, ho imparato la verità più dura: negli affari, anche la migliore tecnologia fallisce senza le persone giuste, la struttura e il processo giusti.",
-      "paragraph2": "Dai 18 anni, lavoro con startup e leader del settore e ho imparato a colmare quel divario, trasformando operazioni disordinate in sistemi che consegnano — in tempo, sempre."
+      "title": "Ci sono passato anch’io.",
+      "paragraph1": "Quando ho iniziato a programmare a 14 anni, costruivo robot — affascinato da come le idee diventassero realtà. Anni dopo, ho scoperto una verità più dura: nel business, anche la migliore tecnologia fallisce senza le persone, la struttura e i processi giusti.",
+      "paragraph2": "Dai 18 anni lavoro con startup e leader di settore, imparando a colmare quel divario e trasformando operazioni caotiche in sistemi che consegnano — puntuali, sempre."
     },
     "languages": {
       "title": "Lingue",
@@ -132,61 +132,61 @@
       "german": "Tedesco",
       "english": "Inglese",
       "spanish": "Spagnolo",
-      "nativeBilingual": "Nativo - Bilingue",
+      "nativeBilingual": "Madrelingua - Bilingue",
       "fluent": "Fluente"
     },
     "philosophy": {
-      "paragraph1": "Lavoro solo con progetti in cui credo veramente, dove la mia esperienza può fare un impatto misurabile. Se sei tu, iniziamo con una semplice chiamata — per analizzare la tua idea, valutare il tuo team e mappare un percorso chiaro verso la consegna scalabile.",
+      "paragraph1": "Lavoro solo con progetti in cui credo davvero e dove la mia esperienza può generare un impatto misurabile. Se è il tuo caso, partiamo con una semplice chiamata — per analizzare la tua idea, valutare il tuo team e tracciare un percorso chiaro verso una delivery scalabile.",
       "transformation": {
         "title": "La trasformazione?",
-        "description": "Dalla gestione delle emergenze e dall'incertezza alla chiarezza, prevedibilità e crescita — tutto senza perdere velocità o bruciare la tua gente."
+        "description": "Dal caos e incertezza alla chiarezza, prevedibilità e crescita — senza perdere velocità o esaurire il tuo team."
       },
       "hero": {
-        "title": "Non sono l'eroe qui.",
+        "title": "L’eroe non sono io.",
         "subtitle": "Sei tu. Io sono solo quello che si assicura che tu vinca."
       }
     }
   },
   "contact": {
-    "title": "La Tua Visione. La Mia Competenza. Costruiamo il Futuro.",
-    "subtitle": "Le grandi idee meritano un'esecuzione perfetta. Che tu stia lanciando una startup o scalando una piattaforma aziendale, ti aiuto a superare il rumore tecnico, semplificare l'esecuzione e creare un prodotto costruito per la crescita.",
+    "title": "La tua visione. La mia esperienza. Costruiamo il futuro.",
+    "subtitle": "Le grandi idee meritano un’esecuzione impeccabile. Che tu stia lanciando una startup o scalando una piattaforma enterprise, ti aiuto a eliminare il rumore tecnico, ottimizzare l’esecuzione e creare un prodotto pronto per crescere.",
     "name": "Nome",
     "email": "Email",
     "message": "Messaggio",
-    "sendMessage": "Invia Messaggio",
+    "sendMessage": "Invia messaggio",
     "or": "oppure",
-    "bookCall": "Prenota la Tua Consulenza",
-    "getInTouch": "Parliamo — e iniziamo a trasformare la tua visione in realtà.",
-    "location": "Posizione",
+    "bookCall": "Prenota la tua consulenza",
+    "getInTouch": "Parliamone — e iniziamo a trasformare la tua visione in realtà.",
+    "location": "Sede",
     "emailLabel": "Email",
     "phoneLabel": "Telefono",
     "consultation": {
-      "title": "Prenota la Tua Consulenza",
-      "description": "In 30 minuti, analizzeremo la tua idea, valuteremo la scalabilità del tuo team e mappiamo il percorso più intelligente in avanti. Accetto solo progetti in cui credo — quindi se lavoriamo insieme, sai che sono investito nel tuo successo.",
-      "button": "Programma una Consulenza"
+      "title": "Prenota la tua consulenza",
+      "description": "In 30 minuti analizzeremo la tua idea, valuteremo la scalabilità del tuo team e definiremo il percorso più intelligente per andare avanti. Accetto solo progetti in cui credo — quindi, se lavoriamo insieme, sai che sarò davvero investito nel tuo successo.",
+      "button": "Fissa una consulenza"
     },
     "contactInfo": {
       "email": "hello@decandido.dev",
       "linkedin": "LinkedIn",
       "phone": "+39 335 781 2244",
-      "location": "Bolzano, Alto Adige, Italia"
+      "location": "Alto Adige, Italia"
     }
   },
   "footer": {
     "copyright": "© {{year}} Gabriele De Candido. Tutti i diritti riservati.",
-    "madeWith": "Fatto con ❤️ e ☕",
+    "madeWith": "Creato con ❤️ e ☕",
     "privacy": "Privacy Policy",
     "terms": "Termini di Servizio"
   },
   "common": {
     "loading": "Caricamento...",
     "error": "Si è verificato un errore",
-    "success": "Successo!",
+    "success": "Operazione completata!",
     "close": "Chiudi",
     "save": "Salva",
     "cancel": "Annulla",
     "submit": "Invia",
-    "learnMore": "Visualizza Servizi",
-    "getStarted": "Visualizza Progetti"
+    "learnMore": "Scopri i servizi",
+    "getStarted": "Scopri i progetti"
   }
 }

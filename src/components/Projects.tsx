@@ -26,7 +26,7 @@ export const Projects = () => {
     <section id="projects" className="py-24 bg-background">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-serif font-bold mb-8 bg-gradient-to-r from-foreground to-muted-foreground bg-clip-text text-transparent whitespace-nowrap leading-tight">
+          <h2 className="text-4xl md:text-5xl font-serif font-bold mb-8 bg-gradient-to-r from-foreground to-muted-foreground bg-clip-text text-transparent whitespace-nowrap leading-[1.1] py-2">
             {t('projects.title')}
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
